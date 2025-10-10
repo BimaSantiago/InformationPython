@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Cascadia Code PL';
+    src: url('/fonts/CascadiaCodePL.woff2') format('woff2'); 
+    font-weight: 400; 
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    /* Tipos de Letras */
+    --font-cascadia: 'Cascadia Code PL';
+
+    /* Colores */
+    --color-azul-fuerte: #4d82bc;
+    --color-azul: #84b6f4;
+    --color-azul-claro: #c4dafa; 
+    --color-amarillo: #fdfd96;
+    --color-amarillo-claro: #f8f8c3;
+    --color-gris-oscuro: #3c3c3c;
+    --color-gris-mamalon: #585858;
+    --color-gris: #515151;
+    --color-gris-medio: #666666;
+    --color-gris-claro: #8c8c8c;
+}
