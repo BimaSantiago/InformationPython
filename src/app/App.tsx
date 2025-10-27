@@ -1,51 +1,40 @@
-import { useState } from 'react';
-import { Sidebar } from '../features/menu/components/Sidebar';
-import { LessonContent } from '../features/content/components/LessonContent';
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Sidebar from "../ui/components/Sidebar"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { useState } from "react"
+import SeccionContenido from "../ui/components/SeccionContenido"
+
 
 function App() {
-    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-    const [activeLesson, setActiveLesson] = useState<string | null>(null);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true)
 
-    const handleNavigate = (lessonId: string) => {
-        setActiveLesson(lessonId);
-    };
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  } 
 
-    return (
-    <div className="min-h-screen  text-gray-200">
-        <div>
-            <button
-                onClick={() => setIsSidebarOpen(true)}
-                className={`
-                    fixed top-4 left-4 z-30 p-2 bg-azul-fuerte rounded-md
-                    hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-azul
-                    transition-all duration-300 cursor-pointer
-                    ${isSidebarOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}
-                `}
-                aria-label="Abrir menú"
-            >
-                <svg className="w-6 h-6 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-            </button>   
-            <Sidebar
-                isOpen={isSidebarOpen}
-                onClose={() => setIsSidebarOpen(false)}
-                onNavigate={handleNavigate}
-                activeLesson={activeLesson}
-            />  
-            <main
-                className={`
-                    p-8 min-h-screen bg-gris-claro transition-all duration-300
-                    ${isSidebarOpen ? 'lg:ml-64' : 'ml-0'}
-                `}
-            >
-                <div className="max-w-7xl mx-auto">
-                    <LessonContent lessonId={activeLesson} />
-                </div>
+  return (
+    <div className="h-dvh w-dvw bg-azul-claro overflow-x-hidden overflow-y-auto">
+        <BrowserRouter>
+            <button className={`${isSidebarOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'} absolute m-4 p-2 text-3xl
+            bg-amarillo rounded-full shadow-lg text-gris cursor-pointer 
+            hover:text-gris-medio transition-all duration-300`}
+            onClick={toggleSidebar}>
+                <FontAwesomeIcon icon={['fas', 'bars']} />
+            </button>
+            <Sidebar 
+              isSidebarOpen={isSidebarOpen}
+              toggleSidebar={toggleSidebar}
+            />
+            <main className={`transition-all duration-500 p-8 z-10 
+            ${isSidebarOpen ? 'ml-64 w-[calc(100%-16rem)]' : 'ml-0 w-full'}`}>
+              <Routes>
+                <Route path="/" />
+                <Route path="/seccion/:seccionId" element={ <SeccionContenido /> } />
+              </Routes>
             </main>
-        </div>
+        </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
