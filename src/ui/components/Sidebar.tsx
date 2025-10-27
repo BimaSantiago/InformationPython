@@ -14,7 +14,10 @@ export default function Sidebar({isSidebarOpen, toggleSidebar}: SidebarProps) {
 
   return (
     <>
-    <aside className={`fixed flex flex-col ${isSidebarOpen ? 'w-64' : 'w-0'} h-full max-h-full bg-azul-fuerte
+    {isSidebarOpen && (
+      <div className="fixed inset-0 bg-black/50 blur-4xl transition-all duration-300 md:hidden" />
+    )}
+    <aside className={`fixed flex flex-col ${isSidebarOpen ? 'md:w-64 w-dvw' : 'w-0'} h-full max-h-full bg-azul-fuerte
     transition-all duration-500 ease-in-out z-10 gap-4 overflow-hidden overflow-y-auto`}>
       <div className="border-b-4 border-amarillo
       flex justify-between p-4 text-2xl">
