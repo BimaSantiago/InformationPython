@@ -406,7 +406,7 @@ export const DROPDOWNS: DropdownProps[] = [
 
                             <h4>2. Flotantes (<strong className="text-blue-400">float</strong>)</h4>
                             <p>
-                                Los números flotantes, conocidos como números de punto flotante, son aquellos que tienen una parte decimal. Se representan utilizando un **punto** para separar la parte entera de la decimal.
+                                Los números flotantes, conocidos como números de punto flotante, son aquellos que tienen una parte decimal. Se representan utilizando un punto para separar la parte entera de la decimal.
                             </p>
                             <p>Ej.</p>
                             <Code>
