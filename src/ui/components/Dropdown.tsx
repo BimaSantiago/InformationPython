@@ -14,7 +14,7 @@ export default function Dropdown({id, icon, title, items, dropdownOpen, toggleDr
 
     return (
     <div key={id}>
-        <button className="w-full flex items-center gap-4
+        <button className="w-full flex items-center gap-3
         p-4 text-white cursor-pointer
         hover:bg-indigo-600 transition-all duration-300"
         onClick={toggleDropdown}> 

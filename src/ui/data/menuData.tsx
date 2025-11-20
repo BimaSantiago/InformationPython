@@ -74,7 +74,7 @@ export const DROPDOWNS: DropdownProps[] = [
                 }
             },
             {
-                id: '1.4',
+                id: '1.4_lenguaje_maquina_y_alto_nivel',
                 item: 'Lenguaje máquina vs. lenguaje de alto nivel',
                 content: {
                     title: 'Lenguaje máquina vs. lenguaje de alto nivel',
@@ -88,7 +88,7 @@ export const DROPDOWNS: DropdownProps[] = [
                 }
             },
             {
-                id: '1.5',
+                id: '1.5_compilacion_interpretacion',
                 item: 'Compilación vs. Interpretación',
                 content: {
                     title: 'Compilación vs. Interpretación',
@@ -98,18 +98,18 @@ export const DROPDOWNS: DropdownProps[] = [
                                 Para que una computadora ejecute un programa, este debe ser traducido a lenguaje máquina, un proceso que la propia computadora puede realizar. Hay dos formas principales de hacerlo:
                             </p>
                                 <ul className="list-disc list-inside ml-4">
-                                    <li><strong className="text-blue-400">• Compilación:  </strong>Un programa traductor (compilador) analiza todo el código fuente de una vez y crea un archivo ejecutable en lenguaje máquina.</li>
-                                    <li><strong className="text-blue-400">• Interpretación:  </strong>Un programa (intérprete) lee y ejecuta el código fuente línea por línea.</li>
+                                    <li><strong className="text-blue-400">Compilación: </strong>Un programa traductor (compilador) analiza todo el código fuente de una vez y crea un archivo ejecutable en lenguaje máquina.</li>
+                                    <li><strong className="text-blue-400">Interpretación: </strong>Un programa (intérprete) lee y ejecuta el código fuente línea por línea.</li>
                                 
                                     <p>¿Qué hace el intérprete?
                                         El código fuente de un programa se guarda en archivos de texto plano. Un intérprete lee este archivo de arriba hacia abajo y de izquierda a derecha. Primero, verifica que cada línea sea correcta ; si encuentra un error, detiene su trabajo y muestra un mensaje de error, indicando dónde está el problema. Si la línea es correcta, el intérprete la ejecuta. Debido a esto, es posible que una parte del código se ejecute con éxito antes de que se encuentre un error más adelante.
-                                        Compilación vs. Interpretación – Ventajas y Desventajas
+                                        Compilación vs. Interpretación - Ventajas y Desventajas
                                         Ninguno de los dos modelos es superior; ambos tienen sus pros y sus contras.
                                     </p>
                                 </ul>
-                            <p>•    Compilación:
-                                <li><strong className="text-blue-400">• Ventajas:   </strong>La ejecución del código es más rápida; el usuario final no necesita el compilador; el código máquina es difícil de leer, lo que protege la propiedad intelectual.</li>
-                                <li><strong className="text-blue-400">• Desventajas:    </strong> El proceso de compilación puede ser lento; se necesita un compilador para cada plataforma de hardware.</li>
+                            <p>Compilación:
+                                <li><strong className="text-blue-400">Ventajas:  </strong>La ejecución del código es más rápida; el usuario final no necesita el compilador; el código máquina es difícil de leer, lo que protege la propiedad intelectual.</li>
+                                <li><strong className="text-blue-400">Desventajas:  </strong> El proceso de compilación puede ser lento; se necesita un compilador para cada plataforma de hardware.</li>
                             </p>
                             <p>Python es un lenguaje interpretado, por lo que hereda estas características. Afortunadamente, el intérprete de Python es gratuito</p>
                         </DivContent>
@@ -117,7 +117,7 @@ export const DROPDOWNS: DropdownProps[] = [
                 }
             },
             {
-                id: '1.6',
+                id: '1.6_introduccion',
                 item: 'Introducción a Python',
                 content: {
                     title: 'Introducción a Python',
@@ -132,17 +132,17 @@ export const DROPDOWNS: DropdownProps[] = [
                             Los objetivos de Python en 1999, Guido van Rossum definió sus metas para Python:
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>•   Un lenguaje fácil e intuitivo, pero tan potente como sus competidores.</li>
-                                <li>•   Ser de código abierto, para que cualquiera pudiera contribuir a su desarrollo.</li>
-                                <li>•   Tener un código tan comprensible como el inglés simple.</li>
-                                <li>•   Ser adecuado para tareas cotidianas, permitiendo tiempos de desarrollo cortos.</li>
+                                <li>Un lenguaje fácil e intuitivo, pero tan potente como sus competidores.</li>
+                                <li>Ser de código abierto, para que cualquiera pudiera contribuir a su desarrollo.</li>
+                                <li>Tener un código tan comprensible como el inglés simple.</li>
+                                <li>Ser adecuado para tareas cotidianas, permitiendo tiempos de desarrollo cortos.</li>
                             </ul>
                         </DivContent>
                     )
                 }
             },
             {
-                id: '1.7',
+                id: '1.7_caracteristicas_python',
                 item: '¿Qué hace que Python sea tan especial?',
                 content: {
                     title: '¿Qué hace que Python sea tan especial?',
@@ -152,25 +152,25 @@ export const DROPDOWNS: DropdownProps[] = [
                                 Python es extremadamente popular por varias razones:
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>•   •   Es fácil de aprender, lo que permite empezar a programar más rápido.</li>
-                                <li>•   •   Es fácil de enseñar, permitiendo a los profesores centrarse en conceptos de programación en lugar de en la complejidad del lenguaje.</li>
-                                <li>•   •   Es fácil de utilizar para escribir nuevo software, a menudo de forma más rápida.</li>
-                                <li>•   •   Es fácil de entender, lo que simplifica la lectura de código escrito por otros.</li>
-                                 <li>•  •   •   Es fácil de obtener, ya que es gratuito, de código abierto y funciona en múltiples plataformas.</li>
+                                <li>Es fácil de aprender, lo que permite empezar a programar más rápido.</li>
+                                <li>Es fácil de enseñar, permitiendo a los profesores centrarse en conceptos de programación en lugar de en la complejidad del lenguaje.</li>
+                                <li>Es fácil de utilizar para escribir nuevo software, a menudo de forma más rápida.</li>
+                                <li>Es fácil de entender, lo que simplifica la lectura de código escrito por otros.</li>
+                                 <li>Es fácil de obtener, ya que es gratuito, de código abierto y funciona en múltiples plataformas.</li>
                             </ul> 
                             <p>¿Por qué no Python?
                             A pesar de su popularidad, hay áreas donde Python no es la opción principal:
                             </p>
                             <p> 
                                 <li><strong className="text-blue-400">Programación de bajo nivel:</strong>Para crear controladores de hardware o motores gráficos de alto rendimiento, no se usaría Python.</li>
-                                <li><strong className="text-blue-400">  Aplicaciones para dispositivos móviles:     </strong> Aunque podría cambiar en el futuro, este campo aún no ha sido conquistado por Python.</li>
+                                <li><strong className="text-blue-400">Aplicaciones para dispositivos móviles:   </strong> Aunque podría cambiar en el futuro, este campo aún no ha sido conquistado por Python.</li>
                             </p>
                         </DivContent>
                     )
                 }
             },
             {
-                id: '1.8',
+                id: '1.8_python_tipos',
                 item: 'Existe más de un Python',
                 content: {
                     title: 'Existe más de un Python',
@@ -184,8 +184,8 @@ export const DROPDOWNS: DropdownProps[] = [
                                 Python 2 y Python 3.
                             </p>
                             <p> 
-                                <li><strong className="text-blue-400">• Python 2: </strong>Es una versión antigua cuyo desarrollo de nuevas características se ha detenido, aunque sigue recibiendo actualizaciones de seguridad y corrección de errores. Todavía se usa porque hay demasiadas aplicaciones existentes escritas en él.</li>
-                                <li><strong className="text-blue-400">• Python 3: </strong> Es la versión actual y la que está en evolución activa.</li>
+                                <li><strong className="text-blue-400">Python 2: </strong>Es una versión antigua cuyo desarrollo de nuevas características se ha detenido, aunque sigue recibiendo actualizaciones de seguridad y corrección de errores. Todavía se usa porque hay demasiadas aplicaciones existentes escritas en él.</li>
+                                <li><strong className="text-blue-400">Python 3: </strong> Es la versión actual y la que está en evolución activa.</li>
                             </p>
                             <p>
                                 Ambas versiones no son compatibles entre sí. Un script de Python 2 no se ejecutará en un entorno de Python 3 y viceversa. Para cualquier proyecto nuevo, se debe usar Python 3, que es la versión utilizada en este curso.
@@ -195,7 +195,7 @@ export const DROPDOWNS: DropdownProps[] = [
                 }
             },
             {
-                id: '1.9',
+                id: '1.9_python_implementaciones',
                 item: 'Implementaciones de Python',
                 content: {
                     title: 'Implementaciones de Python',
@@ -206,17 +206,17 @@ export const DROPDOWNS: DropdownProps[] = [
                             </p>
                         
                             <p> 
-                                <li><strong className="text-blue-400">• CPython:  </strong>Es la implementación tradicional y de referencia, mantenida por la Python Software Foundation (PSF). Está escrita en el lenguaje de programación "C", lo que permite que se pueda usar en casi cualquier plataforma. Es la versión más influyente.</li>
-                                <li><strong className="text-blue-400">• Cython:  </strong>Es una herramienta que traduce código Python a código "C". Su objetivo es solucionar la falta de eficiencia de Python en cálculos matemáticos complejos, haciendo que el código se ejecute mucho más rápido.</li>
-                                <li><strong className="text-blue-400">• Jython:  </strong>Es un entorno de Python escrito en RPython (una versión restringida de Python). Es principalmente una herramienta para los desarrolladores de Python para probar nuevas características.</li>
-                                <li><strong className="text-blue-400">• MicroPython:  </strong>Es una implementación de código abierto de Python 3, optimizada para ejecutarse en microcontroladores y hardware de bajo nivel.</li>
+                                <li><strong className="text-blue-400">CPython: </strong>Es la implementación tradicional y de referencia, mantenida por la Python Software Foundation (PSF). Está escrita en el lenguaje de programación "C", lo que permite que se pueda usar en casi cualquier plataforma. Es la versión más influyente.</li>
+                                <li><strong className="text-blue-400">Cython: </strong>Es una herramienta que traduce código Python a código "C". Su objetivo es solucionar la falta de eficiencia de Python en cálculos matemáticos complejos, haciendo que el código se ejecute mucho más rápido.</li>
+                                <li><strong className="text-blue-400">Jython: </strong>Es un entorno de Python escrito en RPython (una versión restringida de Python). Es principalmente una herramienta para los desarrolladores de Python para probar nuevas características.</li>
+                                <li><strong className="text-blue-400">MicroPython: </strong>Es una implementación de código abierto de Python 3, optimizada para ejecutarse en microcontroladores y hardware de bajo nivel.</li>
                             </p>                        
                         </DivContent>
                     )
                 }
             },
             {
-                id: '1.10',
+                id: '1.10_python_descarga',
                 item: 'Descarga e instalación de Python',
                 content: {
                     title: 'Descarga e instalación de Python',
@@ -235,7 +235,7 @@ export const DROPDOWNS: DropdownProps[] = [
                 }
             },
             {
-                id: '1.11',
+                id: '1.11_python_configuracion',
                 item: 'Cómo descargar, instalar y configurar Python',
                 content: {
                     title: 'Cómo descargar, instalar y configurar Python',
@@ -253,7 +253,7 @@ export const DROPDOWNS: DropdownProps[] = [
                 }
             },
             {
-                id: '1.12',
+                id: '1.12_python_primer_acercamiento',
                 item: 'Comenzando tu trabajo en Python',
                 content: {
                     title: 'Comenzando tu trabajo en Python',
@@ -291,7 +291,7 @@ export const DROPDOWNS: DropdownProps[] = [
                 }
             },
             {
-                id: '1.14',
+                id: '1.14_python_consejos',
                 item: 'Cómo estropear y arreglar tu código',
                 content: {
                     title: 'Cómo estropear y arreglar tu código',
@@ -312,10 +312,10 @@ export const DROPDOWNS: DropdownProps[] = [
                                 La ventana de la consola te mostrará información útil sobre el error:
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>El **traceback**, que muestra la ruta que siguió el código.</li>
-                                <li>La **ubicación del error**, incluyendo el nombre del archivo y el número de línea.</li>
-                                <li>El **contenido de la línea** donde ocurrió el error.</li>
-                                <li>El **nombre del error** y una breve explicación.</li>
+                                <li>El traceback, que muestra la ruta que siguió el código.</li>
+                                <li>La ubicación del error, incluyendo el nombre del archivo y el número de línea.</li>
+                                <li>El contenido de la línea donde ocurrió el error.</li>
+                                <li>El nombre del error y una breve explicación.</li>
                             </ul>
                         </DivContent>
                     )
@@ -354,7 +354,7 @@ export const DROPDOWNS: DropdownProps[] = [
                                 Todo esto nos sirvió para configurar y tener listo nuestro archivo Python, listo para empezar a crear código en él.
                             </p>
                             
-                            <h3>*Función print()* </h3>
+                            <h3>*Función print()*</h3>
                             <p>
                                 La función <strong className="text-blue-400">print()</strong> será nuestra primera herramienta que aprenderemos en Python.
                             </p>
@@ -424,8 +424,8 @@ altura = 1.78`}
                             <p>Ej.</p>
                             <Code>
                                 {`nombre = 'Krico'
-mensaje = 'Krico, saca las cheves!!'
-cita = "Él dijo: \"¡Esto es genial!\""
+mensaje = 'Este es un mensaje'
+cita = "Él dijo: 'Esto es genial'"
 poema = """
 Un verso.
 Otro verso más.
@@ -458,7 +458,7 @@ tiene_descuento = False`}
                     body: (
                         <DivContent>
                             <p>
-                                Los **operadores** son símbolos especiales que nos permiten realizar operaciones en variables y valores. Cuando los datos y operadores se unen, forman juntos <strong className="text-blue-400">expresiones</strong>.
+                                Los operadores son símbolos especiales que nos permiten realizar operaciones en variables y valores. Cuando los datos y operadores se unen, forman juntos <strong className="text-blue-400">expresiones</strong>.
                             </p>
 
                             <hr />
@@ -468,13 +468,13 @@ tiene_descuento = False`}
                                 Se usan para realizar operaciones matemáticas básicas:
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**Suma** (`+`): suma dos valores.</li>
-                                <li>**Resta** (`-`): resta el segundo valor al primero.</li>
-                                <li>**Multiplicación** (`*`): multiplica dos valores.</li>
-                                <li>**División** (`/`): divide y devuelve un valor de tipo **float**.</li>
-                                <li>**División entera** (`//`): divide y devuelve un valor tipo **int** (redondeado al número entero inferior más cercano).</li>
-                                <li>**Módulo o Resto** (`%`): devuelve el resto de la división entre los valores.</li>
-                                <li>**Exponenciación** (`**`): eleva el primer número a la potencia del segundo.</li>
+                                <li>Suma (`+`): suma dos valores.</li>
+                                <li>Resta (`-`): resta el segundo valor al primero.</li>
+                                <li>Multiplicación (`*`): multiplica dos valores.</li>
+                                <li>División (`/`): divide y devuelve un valor de tipo float.</li>
+                                <li>División entera (`//`): divide y devuelve un valor tipo int (redondeado al número entero inferior más cercano).</li>
+                                <li>Módulo o Resto (`%`): devuelve el resto de la división entre los valores.</li>
+                                <li>Exponenciación (``): eleva el primer número a la potencia del segundo.</li>
                             </ul>
                             <p>Ejemplo:</p>
                             <Code>
@@ -497,10 +497,10 @@ exponenciacion = a ** b   # 343`}
                                 Sirven para comparar dos valores y nos devuelven un valor **booleano** (<strong className="text-blue-400">True</strong> o <strong className="text-blue-400">False</strong>):
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**Igual a** {'=='}: devuelve True si ambos valores son iguales.</li>
-                                <li>**Diferente a** {'!='}: devuelve True si ambos valores son distintos.</li>
-                                <li>**Mayor que** {'>'} / **Menor que** {'<'}</li>
-                                <li>**Mayor o igual que** {'>='}/ **Menor o igual que** {'<='}</li>
+                                <li>Igual a {'=='}: devuelve True si ambos valores son iguales.</li>
+                                <li>Diferente a {'!='}: devuelve True si ambos valores son distintos.</li>
+                                <li>Mayor que {'>'} / Menor que {'<'}</li>
+                                <li>Mayor o igual que {'>='}/ Menor o igual que {'<='}</li>
                             </ul>
                             <p>Ejemplo:</p>
                             <Code>
@@ -519,9 +519,9 @@ print(a > b)  # True`}
                                 Se utilizan para combinar expresiones condicionales y evaluar múltiples condiciones:
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**AND** (`and`): devuelve True si **ambas** condiciones son verdaderas.</li>
-                                <li>**OR** (`or`): devuelve True si **al menos una** de las condiciones es verdadera.</li>
-                                <li>**NOT** (`not`): invierte el valor de una condición.</li>
+                                <li>AND (`and`): devuelve True si ambas condiciones son verdaderas.</li>
+                                <li>OR (`or`): devuelve True si al menos una de las condiciones es verdadera.</li>
+                                <li>NOT (`not`): invierte el valor de una condición.</li>
                             </ul>
                             <p>Ejemplo:</p>
                             <Code>
@@ -548,12 +548,12 @@ print(not (a == 10))`}
                     title: 'Variables',
                     body: (
                         <DivContent>
-                            <h3>*¿Qué es una Variable?*</h3>
+                            <h3>¿Qué es una Variable?</h3>
                             <p>
                                 Una variable es un espacio en la memoria de la computadora donde podemos almacenar información (<strong className="text-blue-400">números, texto o valores lógicos</strong>). Puedes pensar en ella como una caja con un nombre, donde guardas algo para usarlo después.
                             </p>
                             <p>
-                                Para crear una variable, basta con escribir su nombre (esto se conoce como **declaración**). Si quieres guardarle un valor, utilizamos el operador de **asignación** (`=`) (esto es **inicializar**). El nombre va a la izquierda del signo, y el valor a la derecha.
+                                Para crear una variable, basta con escribir su nombre (esto se conoce como declaración). Si quieres guardarle un valor, utilizamos el operador de asignación (`=`) (esto es inicializar). El nombre va a la izquierda del signo, y el valor a la derecha.
                             </p>
                             <p>Ej.</p>
                             <Code>
@@ -562,43 +562,43 @@ edad = 17
 es_estudiante = True`}
                             </Code>
                             <p>
-                                También podemos asignar el mismo valor a múltiples variables en una sola línea (**asignación múltiple**):
+                                También podemos asignar el mismo valor a múltiples variables en una sola línea (asignación múltiple):
                             </p>
                             <p>Ej.</p>
                             <Code>
                                 {`a = b = c = 10`}
                             </Code>
-                            <p>En este caso, `a`, `b` y `c`, tendrán el valor `10`.</p>
+                            <p>En este caso, a, b y c, tendrán el valor 10.</p>
 
                             <hr />
 
-                            <h3>*Normas al Nombrar Variables*</h3>
+                            <h3>Normas al Nombrar Variables</h3>
                             <p>
                                 Al nombrar variables en Python, es importante seguir algunas reglas para mantener un código legible y evitar errores:
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>Solo pueden contener **letras** (`a...z`, `A...Z`), **números** (`0...9`) y **guiones bajos** (`_`).</li>
-                                <li>**No pueden comenzar con un número** ni contener espacios.</li>
-                                <li>Python es **sensible a mayúsculas y minúsculas**, por lo que `nombre` y `Nombre` son variables distintas.</li>
-                                <li>No se pueden utilizar **palabras clave reservadas** de Python para nombrar variables (por ejemplo: `if`, `else`, `import`, etc.).</li>
-                                <li>Se recomienda utilizar **nombres descriptivos** para las variables.</li>
+                                <li>Solo pueden contener letras (a...z, A...Z), números (0...9) y guiones bajos (_).</li>
+                                <li>No pueden comenzar con un número ni contener espacios.</li>
+                                <li>Python es sensible a mayúsculas y minúsculas, por lo que nombre y Nombre son variables distintas.</li>
+                                <li>No se pueden utilizar palabras clave reservadas de Python para nombrar variables (por ejemplo: if, else, import, etc.).</li>
+                                <li>Se recomienda utilizar nombres descriptivos para las variables.</li>
                             </ul>
 
                             <hr />
 
-                            <h3>*Notaciones de Estilo (PEP 8)* </h3>
+                            <h3>Notaciones de Estilo (PEP 8) </h3>
                             <p>
-                                La comunidad Python, a través de la guía de estilo **PEP 8**, recomienda seguir un estilo uniforme, siendo el estándar:
+                                La comunidad Python, a través de la guía de estilo PEP 8, recomienda seguir un estilo uniforme, siendo el estándar:
                             </p>
                             <ul className="list-disc list-inside ml-4">
                                 <li>
-                                    **snake\_case** (Estándar de Python): Todas las palabras van en minúsculas y se separan con un guion bajo (`_`). Se recomienda para variables y funciones. Ejemplo: <Code>{`mi_nombre = '...'`}</Code>
+                                    snake_case (Estándar de Python): Todas las palabras van en minúsculas y se separan con un guion bajo (_). Se recomienda para variables y funciones. Ejemplo: <Code>{`mi_nombre = '...'`}</Code>
                                 </li>
                                 <li>
-                                    **PascalCase** (UpperCamelCase): Similar a camelCase, pero todas las palabras comienzan con mayúsculas. En Python, se usa principalmente para nombrar **clases**. Ejemplo: <Code>{`class MiClase: pass`}</Code>
+                                    PascalCase (UpperCamelCase): Similar a camelCase, pero todas las palabras comienzan con mayúsculas. En Python, se usa principalmente para nombrar clases. Ejemplo: <Code>{`class MiClase: pass`}</Code>
                                 </li>
                                 <li>
-                                    **CONSTANTES**: Para variables cuyos valores se mantienen fijos durante todo el código, se usa únicamente **MAYÚSCULAS**. Ejemplo: <Code>{`PI = 3.141592`}</Code>
+                                    CONSTANTES: Para variables cuyos valores se mantienen fijos durante todo el código, se usa únicamente MAYÚSCULAS. Ejemplo: <Code>{`PI = 3.141592`}</Code>
                                 </li>
                             </ul>
                         </DivContent>
@@ -612,24 +612,24 @@ es_estudiante = True`}
                     title: 'Comentarios',
                     body: (
                         <DivContent>
-                            <h3>*La Importancia del Comentario*</h3>
+                            <h3>La Importancia del Comentario</h3>
                             <p>
-                                Los **comentarios** son líneas de texto dentro de tu código que el intérprete de Python **ignora**. Su propósito principal es **documentar** el código, explicar su lógica, o marcar temporalmente líneas para depuración.
+                                Los comentarios son líneas de texto dentro de tu código que el intérprete de Python ignora. Su propósito principal es documentar el código, explicar su lógica, o marcar temporalmente líneas para depuración.
                             </p>
                             <p>
-                                Los comentarios son cruciales para la **legibilidad del código**, especialmente cuando trabajas en equipo o revisas un código antiguo. Nos permiten escribir los pasos de cómo se realizaron los cálculos de una forma sencilla y clara.
+                                Los comentarios son cruciales para la legibilidad del código, especialmente cuando trabajas en equipo o revisas un código antiguo. Nos permiten escribir los pasos de cómo se realizaron los cálculos de una forma sencilla y clara.
                             </p>
 
                             <hr />
 
-                            <h3>*Sintaxis del Comentario*</h3>
+                            <h3>Sintaxis del Comentario</h3>
                             <p>
-                                En Python, un comentario comienza con el símbolo de **almohadilla** (`#`). Todo lo que sigue a este símbolo en la misma línea es considerado un comentario.
+                                En Python, un comentario comienza con el símbolo de almohadilla (#). Todo lo que sigue a este símbolo en la misma línea es considerado un comentario.
                             </p>
                             <p>Ej.</p>
                             <Code>
                                 {`# Esto es un comentario de línea completa
-nombre = "Krico"  # El comentario puede ir al final de una línea de código
+nombre = "Juan"  # El comentario puede ir al final de una línea de código
 
 a = 10
 b = 5
@@ -653,25 +653,25 @@ suma = a + b  # Calculamos la suma de a y b
                     title: 'Interacción con el Usuario',
                     body: (
                         <DivContent>
-                            <h3>*La función input()*</h3>
+                            <h3>La función input()</h3>
                             <p>
-                                La función integrada <strong className="text-blue-400">input()</strong> permite al programa interactuar con el usuario. Cuando se llama a esta función, el programa se detiene y espera a que el usuario escriba algo y presione **Enter**.
+                                La función integrada <strong className="text-blue-400">input()</strong> permite al programa interactuar con el usuario. Cuando se llama a esta función, el programa se detiene y espera a que el usuario escriba algo y presione Enter.
                             </p>
                             <p>
                                 <strong className="text-blue-400">El resultado siempre es una cadena</strong>
                             </p>
                             <p>
-                                Es fundamental entender que el resultado de la función `input()` es una **cadena** (`str`). Contiene todos los caracteres que el usuario introduce desde el teclado.
+                                Es fundamental entender que el resultado de la función input() es una cadena (str). Contiene todos los caracteres que el usuario introduce desde el teclado.
                             </p>
                             <blockquote className="border-l-4 border-amber-300 pl-4 my-2">
                                 <p>
-                                    Debido a que siempre devuelve una cadena, **no se debe utilizar directamente** como argumento para operaciones matemáticas. Intentar realizar una operación aritmética (como una exponenciación) con una cadena resultará en un **error de tipo** (`TypeError`).
+                                    Debido a que siempre devuelve una cadena, no se debe utilizar directamente como argumento para operaciones matemáticas. Intentar realizar una operación aritmética (como una exponenciación) con una cadena resultará en un error de tipo (TypeError).
                                 </p>
                             </blockquote>
                             
                             <hr />
 
-                            <h3>*Conversión de Tipos (Type Casting)*</h3>
+                            <h3>Conversión de Tipos (Type Casting)</h3>
                             <p>
                                 Para poder usar los datos ingresados por el usuario en cálculos matemáticos, debemos convertirlos a un **tipo numérico** (entero o flotante). Python ofrece dos funciones para esto:
                             </p>
@@ -680,7 +680,7 @@ suma = a + b  # Calculamos la suma de a y b
                                 <li><strong className="text-blue-400">float()</strong>: Toma un argumento e intenta convertirlo a un valor **flotante** (con decimales).</li>
                             </ul>
                             <p>
-                                Podemos **anidar** las llamadas a estas funciones para convertir la entrada de inmediato:
+                                Podemos anidar las llamadas a estas funciones para convertir la entrada de inmediato:
                             </p>
                             <p>Ej.</p>
                             <Code>
@@ -707,19 +707,19 @@ print(numero)`}
     
       {
         id: '3',
-        icon: ['far', 'cogs'],
+        icon: ['fas', 'code-compare'],
         title: 'Control de Flujo',
         items: [
             {
-                id: '3.1',
+                id: '3.1_flujo_python',
                 item: 'Toma de decisiones en Python',
                 content: {
                     title: 'Toma de decisiones en Python',
                     body: (
                         <DivContent>
-                            <h3>Introducción a las sentencias condicionales 🚪</h3>
+                            <h3>Introducción a las sentencias condicionales</h3>
                             <p>
-                                Las sentencias condicionales permiten que tu programa tome **decisiones** basándose en si una condición es **verdadera** o **falsa**.
+                                Las sentencias condicionales permiten que tu programa tome decisiones basándose en si una condición es verdadera o falsa.
                             </p>
 
                             <hr />
@@ -727,7 +727,7 @@ print(numero)`}
                             <h3>if, if-else, if-elif-else</h3>
                             <ul className="list-disc list-inside ml-4">
                                 <li>
-                                    <strong className="text-blue-400">if:</strong> Ejecuta un bloque de código si la condición es **verdadera**.
+                                    <strong className="text-blue-400">if:</strong> Ejecuta un bloque de código si la condición es verdadera.
                                     <p>Ejemplo:</p>
                                     <Code>
                                         {`edad = 12
@@ -736,7 +736,7 @@ if edad >= 10:
                                     </Code>
                                 </li>
                                 <li>
-                                    <strong className="text-blue-400">if-else:</strong> Ofrece un camino alternativo. Si la condición del `if` es falsa, se ejecuta el bloque `else`.
+                                    <strong className="text-blue-400">if-else:</strong> Ofrece un camino alternativo. Si la condición del if es falsa, se ejecuta el bloque else.
                                     <p>Ejemplo:</p>
                                     <Code>
                                         {`edad = 8
@@ -747,7 +747,7 @@ else:
                                     </Code>
                                 </li>
                                 <li>
-                                    <strong className="text-blue-400">if-elif-else:</strong> Permite revisar **múltiples condiciones**. Si la condición del `if` es falsa, se revisan las condiciones de `elif` en orden. Si ninguna es verdadera, se ejecuta el `else`.
+                                    <strong className="text-blue-400">if-elif-else:</strong> Permite revisar múltiples condiciones. Si la condición del if es falsa, se revisan las condiciones de elif en orden. Si ninguna es verdadera, se ejecuta el else.
                                     <p>Ejemplo:</p>
                                     <Code>
                                         {`nota = 85
@@ -763,9 +763,9 @@ else:
 
                             <hr />
 
-                            <h3>Condiciones anidadas 📦</h3>
+                            <h3>Condiciones anidadas</h3>
                             <p>
-                                Consiste en colocar una sentencia condicional **dentro de otra**. Esto permite tomar decisiones más específicas.
+                                Consiste en colocar una sentencia condicional dentro de otra. Esto permite tomar decisiones más específicas.
                             </p>
                             <p>Ejemplo:</p>
                             <Code>
@@ -782,17 +782,17 @@ else:
 
                             <hr />
 
-                            <h3>Operadores de comparación ⚖️</h3>
+                            <h3>Operadores de comparación</h3>
                             <p>
-                                Símbolos utilizados para comparar valores, cuyo resultado siempre es un booleano (`True` o `False`):
+                                Símbolos utilizados para comparar valores, cuyo resultado siempre es un booleano (True o False):
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>{'=='}: **Igual** a</li>
-                                <li>{'!='}: **Diferente** de</li>
-                                <li>{'>'}: **Mayor** que</li>
-                                <li>{'<'}: **Menor** que</li>
-                                <li>{'>='}: **Mayor o igual** que</li>
-                                <li>{'<='}: **Menor o igual** que</li>
+                                <li>{'=='}: Igual a</li>
+                                <li>{'!='}: Diferente de</li>
+                                <li>{'>'}: Mayor que</li>
+                                <li>{'<'}: Menor que</li>
+                                <li>{'>='}: Mayor o igual que</li>
+                                <li>{'<='}: Menor o igual que</li>
                             </ul>
                             <p>Ejemplo:</p>
                             <Code>
@@ -831,24 +831,24 @@ print(f"Tu calificación es: {calificacion}")`}
 
                             <h3>Preguntas y respuestas</h3>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**¿Puedo tener múltiples condiciones en un solo if?** Sí, usando operadores lógicos como **`and`** y **`or`**. Ejemplo: `if edad {'>='} 10 and tiene_permiso:`.</li>
-                                <li>**¿Qué pasa si no pongo else?** No hay problema. Si la condición es falsa, el programa simplemente continúa con la siguiente línea de código después del bloque `if`.</li>
-                                <li>**¿Cuántos elif puedo usar?** Tantos como necesites, no hay límite.</li>
+                                <li>¿Puedo tener múltiples condiciones en un solo if? Sí, usando operadores lógicos como and y or. Ejemplo: if edad {'>='} 10 and tiene_permiso:.</li>
+                                <li>¿Qué pasa si no pongo else? No hay problema. Si la condición es falsa, el programa simplemente continúa con la siguiente línea de código después del bloque if.</li>
+                                <li>¿Cuántos elif puedo usar? Tantos como necesites, no hay límite.</li>
                             </ul>
                         </DivContent>
                     )
                 }
             },
             {
-                id: '3.2',
+                id: '3.2_bucles',
                 item: 'Bucles en Python',
                 content: {
                     title: 'Bucles en Python',
                     body: (
                         <DivContent>
-                            <h3>Introducción a los Bucles 🔁</h3>
+                            <h3>Introducción a los Bucles</h3>
                             <p>
-                                Los bucles son estructuras que permiten **repetir** una o más instrucciones varias veces.
+                                Los bucles son estructuras que permiten repetir una o más instrucciones varias veces.
                             </p>
 
                             <hr />
@@ -856,7 +856,7 @@ print(f"Tu calificación es: {calificacion}")`}
                             <h3>while y for</h3>
                             <ul className="list-disc list-inside ml-4">
                                 <li>
-                                    <strong className="text-blue-400">while:</strong> Repite el bloque de código **mientras una condición sea verdadera**. Es crucial cambiar la condición dentro del bucle para evitar bucles infinitos.
+                                    <strong className="text-blue-400">while:</strong> Repite el bloque de código mientras una condición sea verdadera. Es crucial cambiar la condición dentro del bucle para evitar bucles infinitos.
                                     <p>Ejemplo:</p>
                                     <Code>
                                         {`contador = 1
@@ -866,7 +866,7 @@ while contador <= 5:
                                     </Code>
                                 </li>
                                 <li>
-                                    <strong className="text-blue-400">for:</strong> Repite el bloque de código para **cada elemento** de una secuencia (como una lista o un rango de números).
+                                    <strong className="text-blue-400">for:</strong> Repite el bloque de código para cada elemento de una secuencia (como una lista o un rango de números).
                                     <p>Ejemplo:</p>
                                     <Code>
                                         {`for i in range(1, 6): # range(inicio, fin) genera una secuencia
@@ -877,10 +877,10 @@ while contador <= 5:
 
                             <hr />
 
-                            <h3>break y continue 🛑⏭️</h3>
+                            <h3>break y continue</h3>
                             <ul className="list-disc list-inside ml-4">
                                 <li>
-                                    <strong className="text-blue-400">break:</strong> **Detiene el bucle inmediatamente**, saltando a la siguiente línea de código después del bucle.
+                                    <strong className="text-blue-400">break:</strong> Detiene el bucle inmediatamente, saltando a la siguiente línea de código después del bucle.
                                     <p>Ejemplo:</p>
                                     <Code>
                                         {`for i in range(10):
@@ -890,7 +890,7 @@ while contador <= 5:
                                     </Code>
                                 </li>
                                 <li>
-                                    <strong className="text-blue-400">continue:</strong> **Saltea la iteración actual** y pasa directamente al inicio de la siguiente iteración del bucle.
+                                    <strong className="text-blue-400">continue:</strong> Saltea la iteración actual y pasa directamente al inicio de la siguiente iteración del bucle.
                                     <p>Ejemplo:</p>
                                     <Code>
                                         {`for i in range(5):
@@ -903,9 +903,9 @@ while contador <= 5:
 
                             <hr />
 
-                            <h3>else en bucles ✨</h3>
+                            <h3>else en bucles</h3>
                             <p>
-                                En Python, la cláusula **`else`** después de un bucle (`for` o `while`) se ejecuta **solo si el bucle termina de forma normal** (es decir, la condición del `while` se vuelve falsa, o el `for` itera sobre todos sus elementos). **No se ejecuta si el bucle se detiene con `break`**.
+                                En Python, la cláusula else después de un bucle (for o while) se ejecuta solo si el bucle termina de forma normal (es decir, la condición del while se vuelve falsa, o el for itera sobre todos sus elementos). No se ejecuta si el bucle se detiene con break.
                             </p>
                             <p>Ejemplo:</p>
                             <Code>
@@ -965,19 +965,19 @@ print(f"Se llegó a 1 en {pasos} pasos")`}
                 }
             },
             {
-                id: '3.3',
+                id: '3.3_operaciones_logicas_y_bits',
                 item: 'Operaciones lógicas y de bits',
                 content: {
                     title: 'Operaciones lógicas y de bits',
                     body: (
                         <DivContent>
-                            <h3>3.3.1 Lógica de computadoras 🧠</h3>
+                            <h3>3.3.1 Lógica de computadoras</h3>
                             <p>
-                                Las computadoras trabajan con valores **`True`** (verdadero) y **`False`** (falso). Los operadores lógicos permiten combinar estas condiciones para tomar decisiones complejas.
+                                Las computadoras trabajan con valores True (verdadero) y False (falso). Los operadores lógicos permiten combinar estas condiciones para tomar decisiones complejas.
                             </p>
                             <ul className="list-disc list-inside ml-4">
                                 <li>
-                                    <strong className="text-blue-400">and (Conjunción):</strong> Devuelve `True` si **ambas** condiciones son verdaderas.
+                                    <strong className="text-blue-400">and (Conjunción):</strong> Devuelve True si ambas condiciones son verdaderas.
                                     <p>Ejemplo:</p>
                                     <Code>
                                         {`tiene_llave = True
@@ -987,7 +987,7 @@ if tiene_llave and tiene_permiso:
                                     </Code>
                                 </li>
                                 <li>
-                                    <strong className="text-blue-400">or (Disyunción):</strong> Devuelve `True` si **al menos una** condición es verdadera.
+                                    <strong className="text-blue-400">or (Disyunción):</strong> Devuelve True si al menos una condición es verdadera.
                                     <p>Ejemplo:</p>
                                     <Code>
                                         {`tiene_efectivo = False
@@ -997,7 +997,7 @@ if tiene_efectivo or tiene_tarjeta:
                                     </Code>
                                 </li>
                                 <li>
-                                    <strong className="text-blue-400">not (Negación):</strong> **Invierte** el valor booleano. `not True` es `False`, y `not False` es `True`.
+                                    <strong className="text-blue-400">not (Negación):</strong> Invierte el valor booleano. not True es False, y not False es True.
                                     <p>Ejemplo:</p>
                                     <Code>
                                         {`esta_lloviendo = False
@@ -1011,7 +1011,7 @@ if not esta_lloviendo:
 
                             <h3>3.3.2 Expresiones lógicas</h3>
                             <p>
-                                Se pueden crear expresiones complejas combinando operadores, usando **paréntesis** para controlar el orden de evaluación.
+                                Se pueden crear expresiones complejas combinando operadores, usando paréntesis para controlar el orden de evaluación.
                             </p>
                             <p>Ejemplo:</p>
                             <Code>
@@ -1023,21 +1023,21 @@ if edad >= 13 and (tiene_permiso or edad >= 18):
 
                             <hr />
 
-                            <h3>3.3.3 Operadores bit a bit (Bitwise) 💾</h3>
+                            <h3>3.3.3 Operadores bit a bit (Bitwise)</h3>
                             <p>
-                                Estos operadores trabajan directamente con los bits (`0` y `1`) de los números enteros, manipulando cada dígito binario individualmente.
+                                Estos operadores trabajan directamente con los bits (0 y 1) de los números enteros, manipulando cada dígito binario individualmente.
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li><strong className="text-blue-400">& (AND bit a bit):</strong> El bit resultante es 1 si **ambos** bits son 1.
+                                <li><strong className="text-blue-400">& (AND bit a bit):</strong> El bit resultante es 1 si ambos bits son 1.
                                     <Code>{`5 & 3  # 101 & 011 = 001 = 1`}</Code>
                                 </li>
-                                <li><strong className="text-blue-400">| (OR bit a bit):</strong> El bit resultante es 1 si **al menos uno** de los bits es 1.
+                                <li><strong className="text-blue-400">| (OR bit a bit):</strong> El bit resultante es 1 si al menos uno de los bits es 1.
                                     <Code>{`5 | 3  # 101 | 011 = 111 = 7`}</Code>
                                 </li>
-                                <li><strong className="text-blue-400">^ (XOR - OR exclusivo):</strong> El bit resultante es 1 si los bits son **diferentes**.
+                                <li><strong className="text-blue-400">^ (XOR - OR exclusivo):</strong> El bit resultante es 1 si los bits son diferentes.
                                     <Code>{`5 ^ 3  # 101 ^ 011 = 110 = 6`}</Code>
                                 </li>
-                                <li><strong className="text-blue-400">~ (NOT bit a bit):</strong> Invierte todos los bits. (Nota: La representación real en Python usa complemento a dos, por eso `~5` es `-6`).
+                                <li><strong className="text-blue-400">~ (NOT bit a bit):</strong> Invierte todos los bits. (Nota: La representación real en Python usa complemento a dos, por eso ~5 es -6).
                                     <Code>{`~5  # -6 (en complemento a 2)`}</Code>
                                 </li>
                                 <li><strong className="text-blue-400">{'>>'} y {'<<'} (Desplazamiento):</strong> Mueven los bits a la derecha o izquierda.
@@ -1053,18 +1053,18 @@ if edad >= 13 and (tiene_permiso or edad >= 18):
                                 Python evalúa las operaciones lógicas y de bits en el siguiente orden:
                             </p>
                             <ol className="list-decimal list-inside ml-4">
-                                <li><strong className="text-blue-400">`not`</strong></li>
-                                <li><strong className="text-blue-400">`and`</strong></li>
-                                <li><strong className="text-blue-400">`or`</strong></li>
-                                <li>Operadores bit a bit: **`~, {'<<'}, {'>>'}, &, ^, |`**</li>
+                                <li><strong className="text-blue-400">not</strong></li>
+                                <li><strong className="text-blue-400">and</strong></li>
+                                <li><strong className="text-blue-400">or</strong></li>
+                                <li>Operadores bit a bit: ~, {'<<'}, {'>>'}, &, ^, |</li>
                             </ol>
-                            <p>Utiliza **paréntesis `()`** para anular la prioridad y forzar un orden de evaluación. Ejemplo: `(a or b) and c`.</p>
+                            <p>Utiliza paréntesis () para anular la prioridad y forzar un orden de evaluación. Ejemplo: (a or b) and c.</p>
 
                             <hr />
 
-                            <h3>3.3.5 Operadores booleanos y máscaras de bits 🎭</h3>
+                            <h3>3.3.5 Operadores booleanos y máscaras de bits</h3>
                             <p>
-                                Una **máscara de bits** es un valor predefinido que se usa con operadores bit a bit para activar, desactivar o verificar bits específicos en un número.
+                                Una máscara de bits es un valor predefinido que se usa con operadores bit a bit para activar, desactivar o verificar bits específicos en un número.
                             </p>
                             <Code>
                                 {`# Permisos: leer=1 (001), escribir=2 (010), ejecutar=4 (100)
@@ -1093,21 +1093,21 @@ permisos = permisos | 0b010  # 0b101 | 0b010 = 0b111 = 7`}
                 }
             },
             {
-                id: '3.4',
+                id: '3.4_listas',
                 item: 'Listas',
                 content: {
-                    title: 'Listas 📋',
+                    title: 'Listas',
                     body: (
                         <DivContent>
                             <h3>¿Por qué necesitamos listas?</h3>
                             <p>
-                                Las **Listas** son estructuras de datos que permiten almacenar **múltiples elementos** en una sola variable. Son el tipo de secuencia más versátil de Python, ya que son **mutables** (se pueden cambiar) y pueden contener elementos de diferentes tipos.
+                                Las Listas son estructuras de datos que permiten almacenar múltiples elementos en una sola variable. Son el tipo de secuencia más versátil de Python, ya que son mutables (se pueden cambiar) y pueden contener elementos de diferentes tipos.
                             </p>
 
                             <hr />
 
                             <h3>Creación de listas</h3>
-                            <p>Las listas se crean usando corchetes `[]`.</p>
+                            <p>Las listas se crean usando corchetes [].</p>
                             <Code>
                                 {`# Lista vacía
 mi_lista = []
@@ -1124,9 +1124,9 @@ otra_lista = list(range(5))  # [0, 1, 2, 3, 4]`}
 
                             <hr />
 
-                            <h3>Indexación y rebanado (slicing) ✂️</h3>
+                            <h3>Indexación y rebanado (slicing)</h3>
                             <p>
-                                Cada elemento tiene una posición o **índice** que comienza en **0**. Se puede acceder a los elementos usando estos índices.
+                                Cada elemento tiene una posición o índice que comienza en 0. Se puede acceder a los elementos usando estos índices.
                             </p>
                             <Code>
                                 {`frutas = ["manzana", "banana", "naranja", "uva"]
@@ -1172,7 +1172,7 @@ print(numeros.count(1))    # 2 (Veces que aparece el valor 1)`}
                             <hr />
 
                             <h3>Métodos principales de listas (Modificadores)</h3>
-                            <p>Métodos son funciones que pertenecen al objeto lista y se invocan con el punto (`.`).</p>
+                            <p>Métodos son funciones que pertenecen al objeto lista y se invocan con el punto (.).</p>
                             <Code>
                                 {`lista = [1, 2, 3]
 
@@ -1200,7 +1200,7 @@ lista.clear()       # []`}
 
                             <hr />
 
-                            <h3>Listas anidadas 🗃️</h3>
+                            <h3>Listas anidadas</h3>
                             <p>
                                 Son listas que contienen otras listas como elementos, muy útiles para representar matrices o tablas.
                             </p>
@@ -1263,14 +1263,14 @@ print(f"Los Fab {len(beatles)}")`}
                 }
             },
             {
-                id: '3.5',
+                id: '3.5_procesar_listas',
                 item: 'Procesamiento de Listas',
                 content: {
                     title: '3.5 - Procesamiento de Listas',
                     body: (
                         <DivContent>
                             
-                            <h3>Iteración sobre listas 🚶‍♀️</h3>
+                            <h3>Iteración sobre listas</h3>
                             <p>
                                 Recorrer una lista es como revisar cada cajón de un mueble:
                             </p>
@@ -1292,7 +1292,7 @@ for indice, color in enumerate(colores):
 
                             <hr />
 
-                            <h3>Uso de `in` y `not in` 🔎</h3>
+                            <h3>Uso de in y not in</h3>
                             <p>
                                 Verificar si algo existe en una lista:
                             </p>
@@ -1311,7 +1311,7 @@ print(10 in numeros)  # False`}
 
                             <hr />
 
-                            <h3>Comparación entre listas ⚖️</h3>
+                            <h3>Comparación entre listas</h3>
                             <p>
                                 Python compara listas elemento por elemento:
                             </p>
@@ -1326,7 +1326,7 @@ print(lista1 < lista3)  # True (3 < 4)`}
 
                             <hr />
 
-                            <h3>Listas y cadenas de texto 🔄</h3>
+                            <h3>Listas y cadenas de texto</h3>
                             <p>
                                 Las cadenas y listas pueden convertirse entre sí:
                             </p>
@@ -1347,7 +1347,7 @@ partes = fecha.split("/")  # ["31", "12", "2024"]`}
 
                             <hr />
 
-                            <h3>Ejercicios prácticos 💪</h3>
+                            <h3>Ejercicios prácticos</h3>
                             <Code>
                                 {`# 1. Encontrar el número más grande 
 numeros = [34, 12, 78, 23, 90, 45] 
@@ -1379,16 +1379,16 @@ print(pares)  # [2, 4, 6, 8, 10]`}
                 }
             },
             {
-                id: '3.6',
+                id: '3.6_listas_avanzadas',
                 item: 'Listas avanzadas',
                 content: {
                     title: '3.6 - Listas avanzadas',
                     body: (
                         <DivContent>
                             
-                            <h3>Copias y referencias de listas 🛑</h3>
+                            <h3>Copias y referencias de listas</h3>
                             <p>
-                                Esto es muy importante: cuando "copias" una lista, debes tener cuidado. Por defecto, la asignación (`=`) crea una **referencia**, no una copia.
+                                Esto es muy importante: cuando "copias" una lista, debes tener cuidado. Por defecto, la asignación (=) crea una referencia, no una copia.
                             </p>
                             <Code>
                                 {`# CUIDADO: Esto NO crea una copia 
@@ -1406,14 +1406,14 @@ print(lista1)  # [1, 2, 3] (no cambió)
 print(lista2)  # [100, 2, 3]`}
                             </Code>
                             <blockquote className="border-l-4 border-amber-300 pl-4 my-2">
-                                Imagina que `lista1` es una casa. Cuando haces `lista2 = lista1`, ambas variables apuntan a la misma casa. Si pintas la casa con `lista2`, `lista1` también ve el cambio. Para tener dos casas diferentes, necesitas hacer una **copia real**.
+                                Imagina que lista1 es una casa. Cuando haces lista2 = lista1, ambas variables apuntan a la misma casa. Si pintas la casa con lista2, lista1 también ve el cambio. Para tener dos casas diferentes, necesitas hacer una copia real.
                             </blockquote>
 
                             <hr />
 
-                            <h3>Listas vs. matrices 🖼️</h3>
+                            <h3>Listas vs. matrices</h3>
                             <p>
-                                En Python, no hay un tipo "matriz" incorporado, pero podemos crear matrices usando **listas anidadas**:
+                                En Python, no hay un tipo "matriz" incorporado, pero podemos crear matrices usando listas anidadas:
                             </p>
                             <Code>
                                 {`# Lista simple (1D) 
@@ -1428,8 +1428,8 @@ matriz = [
                             </Code>
                             <p>Diferencias clave:</p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**Listas:** lineales, como una fila de cajas.</li>
-                                <li>**Matrices:** bidimensionales (o n-dimensionales), como una tabla con filas y columnas.</li>
+                                <li>Listas: lineales, como una fila de cajas.</li>
+                                <li>Matrices: bidimensionales (o n-dimensionales), como una tabla con filas y columnas.</li>
                             </ul>
 
                             <hr />
@@ -1458,7 +1458,7 @@ for fila in tabla:
 
                             <hr />
 
-                            <h3>Ejemplos prácticos con matrices ➕</h3>
+                            <h3>Ejemplos prácticos con matrices</h3>
                             <h4>Crear una tabla de multiplicar</h4>
                             <Code>
                                 {`# Tabla del 1 al 5 
@@ -1507,26 +1507,26 @@ print(transpuesta)  # [[1, 4], [2, 5], [3, 6]]`}
                 }
             },
             {
-                id: '3.7',
+                id: '3.7_list_comprehensions y arreglos',
                 item: 'List Comprehensions y Arreglos',
                 content: {
                     title: '3.7  List Comprehensions y Arreglos',
                     body: (
                         <DivContent>
                             
-                            <h3>3.7.1 Comprensión de listas: sintaxis y ejemplos 📝</h3>
+                            <h3>3.7.1 Comprensión de listas: sintaxis y ejemplos</h3>
                             <p>
-                                Las **List Comprehensions** son una forma rápida y elegante de crear listas. Es como una receta comprimida en una sola línea, ofreciendo una sintaxis más legible y eficiente que los bucles `for` tradicionales para la creación de listas.
+                                Las List Comprehensions son una forma rápida y elegante de crear listas. Es como una receta comprimida en una sola línea, ofreciendo una sintaxis más legible y eficiente que los bucles for tradicionales para la creación de listas.
                             </p>
                             <Code>
                                 {`# Forma tradicional 
 cuadrados_tradicional = [] 
 for i in range(1, 6): 
-    cuadrados_tradicional.append(i ** 2) 
+    cuadrados_tradicional.append(i  2) 
 print(cuadrados_tradicional) # [1, 4, 9, 16, 25] 
 
 # Con list comprehension (mucho más corto) 
-cuadrados = [i ** 2 for i in range(1, 6)] 
+cuadrados = [i  2 for i in range(1, 6)] 
 print(cuadrados) # [1, 4, 9, 16, 25] 
 
 # Sintaxis básica: [expresión for elemento in iterable]`}
@@ -1551,9 +1551,9 @@ print(etiquetas) # ['impar', 'par', 'impar', 'par', 'impar']`}
 
                             <hr />
 
-                            <h3>3.7.2 Listas anidadas y matrices (listas bidimensionales y más) 🌐</h3>
+                            <h3>3.7.2 Listas anidadas y matrices (listas bidimensionales y más)</h3>
                             <p>
-                                Podemos usar list comprehensions para crear **matrices** (listas anidadas) de forma más compacta:
+                                Podemos usar list comprehensions para crear matrices (listas anidadas) de forma más compacta:
                             </p>
                             <Code>
                                 {`# Matriz 3x3 llena de ceros (List comprehension anidada)
@@ -1576,15 +1576,15 @@ print(identidad)
 
                             <hr />
 
-                            <h3>3.7.3 Arreglos multidimensionales (3D, 4D, hasta nD) 🧊</h3>
+                            <h3>3.7.3 Arreglos multidimensionales (3D, 4D, hasta nD)</h3>
                             <p>
                                 Los arreglos (listas anidadas) pueden tener más de 2 dimensiones, representando estructuras de datos complejas:
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**1D**: Una fila de cajas (Lista simple)</li>
-                                <li>**2D**: Una tabla (Lista de listas - Matriz)</li>
-                                <li>**3D**: Un cubo de cajas (capas, filas y columnas)</li>
-                                <li>**4D y más**: Se usan para representar datos en el tiempo u otros contextos.</li>
+                                <li>1D: Una fila de cajas (Lista simple)</li>
+                                <li>2D: Una tabla (Lista de listas - Matriz)</li>
+                                <li>3D: Un cubo de cajas (capas, filas y columnas)</li>
+                                <li>4D y más: Se usan para representar datos en el tiempo u otros contextos.</li>
                             </ul>
 
                             <h4>Ejemplo de Arreglo 3D</h4>
@@ -1612,13 +1612,13 @@ cubo = [[[i+j+k for k in range(3)] for j in range(3)] for i in range(3)]`}
                             </Code>
                             
                             <h4>Arreglos de Alta Dimensión</h4>
-                            <p>
-                                Los **Arreglos 4D** podrían representar datos en el tiempo, por ejemplo:
-                                * Dimensión 1: Tiempo (diferentes días)
-                                * Dimensión 2: Pisos de un edificio
-                                * Dimensión 3: Filas en cada piso
-                                * Dimensión 4: Columnas en cada fila
-                            </p>
+                            <ul className="list-disc list-inside ml-4">
+                                Los Arreglos 4D podrían representar datos en el tiempo, por ejemplo:
+                                <li>Dimensión 1: Tiempo (diferentes días)</li>
+                                <li>Dimensión 2: Pisos de un edificio</li>
+                                <li>Dimensión 3: Filas en cada piso</li>
+                                <li>Dimensión 4: Columnas en cada fila</li>
+                            </ul>
                             <Code>
                                 {`# Arreglo 4D pequeño: 2x2x2x2 
 arreglo_4d = [[[[1, 2], [3, 4]], [[5, 6], [7, 8]]], 
@@ -1627,7 +1627,7 @@ arreglo_4d = [[[[1, 2], [3, 4]], [[5, 6], [7, 8]]],
 print(arreglo_4d[1][0][1][0]) # 11`}
                             </Code>
                             <blockquote className="border-l-4 border-amber-300 pl-4 my-2">
-                                Para arreglos de muchas dimensiones, normalmente se usan **bibliotecas especializadas como NumPy**, que hacen que trabajar con ellos sea mucho más fácil y eficiente.
+                                Para arreglos de muchas dimensiones, normalmente se usan bibliotecas especializadas como NumPy, que hacen que trabajar con ellos sea mucho más fácil y eficiente.
                             </blockquote>
                         </DivContent>
                     )
@@ -1638,37 +1638,37 @@ print(arreglo_4d[1][0][1][0]) # 11`}
 
 {
         id: '4',
-        icon: ['far', 'function'],
+        icon: ['fas', 'code'],
         title: 'Funciones',
         items: [
             {
-                id: '4.1',
+                id: '4.1_funciones',
                 item: 'Funciones: Introducción',
                 content: {
-                    title: '4.1 – Funciones: Introducción',
+                    title: 'Funciones: Introducción',
                     body: (
                         <DivContent>
                             <h3>¿Por qué necesitamos funciones?</h3>
-                            <p>Las funciones son esenciales para el desarrollo de software por dos razones principales: **reutilización** y **organización**.</p>
+                            <p>Las funciones son esenciales para el desarrollo de software por dos razones principales: reutilización y organización.</p>
                             
                             <h4>1. Reutilización de Código (Evitar la Repetición)</h4>
                             <p>
                                 Si un fragmento de código se repite muchas veces (literalmente o con pequeñas modificaciones), es una señal clara de que debe convertirse en una función.
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**Riesgo de Error:** Al copiar y pegar código, si existe un error, se debe corregir en todos los lugares donde se pegó. Una función permite corregir el error en **un solo lugar** (dentro de la función).</li>
-                                <li>**Condición Clave:** Si un fragmento de código comienza a aparecer en más de una ocasión, considera la posibilidad de **aislarlo en la forma de una función** e invocarla desde donde se necesite.</li>
+                                <li>Riesgo de Error: Al copiar y pegar código, si existe un error, se debe corregir en todos los lugares donde se pegó. Una función permite corregir el error en un solo lugar (dentro de la función).</li>
+                                <li>Condición Clave: Si un fragmento de código comienza a aparecer en más de una ocasión, considera la posibilidad de aislarlo en la forma de una función e invocarla desde donde se necesite.</li>
                             </ul>
 
                             <h4>2. Organización y Descomposición (Manejo de Complejidad)</h4>
                             <p>
-                                Los algoritmos complejos pueden hacer que el código crezca incontrolablemente. La **descomposición** es el proceso de dividir el problema en piezas aisladas.
+                                Los algoritmos complejos pueden hacer que el código crezca incontrolablemente. La descomposición es el proceso de dividir el problema en piezas aisladas.
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**Simplificación:** Un buen desarrollador divide el problema en pequeños problemas y codifica cada uno de ellos como una función independiente.</li>
-                                <li>**Pruebas:** Cada pieza se codifica y se prueba por separado, lo que simplifica considerablemente el trabajo.</li>
-                                <li>**Trabajo en Equipo:** Permite que un equipo de desarrolladores trabaje en un programa complejo, donde cada uno escribe un conjunto bien definido de funciones que, al combinarse en un módulo, forman el producto final.</li>
-                                <li>**Condición Clave:** Si un fragmento de código se hace tan extenso que leerlo o entenderlo se hace complicado, considera **dividirlo** en pequeñas funciones.</li>
+                                <li>Simplificación: Un buen desarrollador divide el problema en pequeños problemas y codifica cada uno de ellos como una función independiente.</li>
+                                <li>Pruebas: Cada pieza se codifica y se prueba por separado, lo que simplifica considerablemente el trabajo.</li>
+                                <li>Trabajo en Equipo: Permite que un equipo de desarrolladores trabaje en un programa complejo, donde cada uno escribe un conjunto bien definido de funciones que, al combinarse en un módulo, forman el producto final.</li>
+                                <li>Condición Clave: Si un fragmento de código se hace tan extenso que leerlo o entenderlo se hace complicado, considera dividirlo en pequeñas funciones.</li>
                             </ul>
 
                             <hr />
@@ -1676,9 +1676,9 @@ print(arreglo_4d[1][0][1][0]) # 11`}
                             <h3>¿De dónde provienen las funciones?</h3>
                             <p>Existen al menos cuatro tipos de funciones básicas en Python:</p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**Funciones integradas:** Son parte esencial de Python, como `print()`, `len()`, o `int()`. Puedes ver una lista completa en la documentación oficial.</li>
-                                <li>**Funciones en módulos pre-instalados:** Funciones disponibles después de importar un módulo (ej. `math.sqrt()` después de `import math`).</li>
-                                <li>**Funciones definidas por el usuario:** Las que escribimos los programadores para nuestro código.</li>
+                                <li>Funciones integradas: Son parte esencial de Python, como print(), len(), o int(). Puedes ver una lista completa en la documentación oficial.</li>
+                                <li>Funciones en módulos pre-instalados: Funciones disponibles después de importar un módulo (ej. math.sqrt() después de import math).</li>
+                                <li>Funciones definidas por el usuario: Las que escribimos los programadores para nuestro código.</li>
                             </ul>
 
                             <hr />
@@ -1691,11 +1691,11 @@ print(arreglo_4d[1][0][1][0]) # 11`}
     # instrucciones anidadas`}
                             </Code>
                             <ul className="list-disc list-inside ml-4">
-                                <li>Siempre comienza con la **palabra reservada \`def\`** (de **def**inir).</li>
-                                <li>Después de \`def\` va el **nombre de la función** (las mismas reglas de nombres que para las variables).</li>
-                                <li>Le sigue un par de **paréntesis \`()\`** (para argumentos, si los hay).</li>
-                                <li>La línea debe terminar con **dos puntos \`:\`**.</li>
-                                <li>El **cuerpo de la función** contiene las instrucciones, y comienza inmediatamente después de \`def\` con una **instrucción anidada** (indentada). La función termina donde el anidamiento termina.</li>
+                                <li>Siempre comienza con la palabra reservada def (de definir).</li>
+                                <li>Después de def va el nombre de la función (las mismas reglas de nombres que para las variables).</li>
+                                <li>Le sigue un par de paréntesis () (para argumentos, si los hay).</li>
+                                <li>La línea debe terminar con dos puntos :</li>
+                                <li>El cuerpo de la función contiene las instrucciones, y comienza inmediatamente después de def con una instrucción anidada (indentada). La función termina donde el anidamiento termina.</li>
                             </ul>
                             
                             <h4>Ejemplo de definición y uso:</h4>
@@ -1712,15 +1712,15 @@ message() # Invocación 2`}
                             <h3>Funcionamiento y Consejos Clave</h3>
                             <p>El proceso de ejecución de una función es el siguiente:</p>
                             <ol className="list-decimal list-inside ml-4">
-                                <li>Cuando se **invoca** una función, Python recuerda el lugar donde ocurre y **salta** hacia dentro de la función invocada.</li>
-                                <li>El cuerpo de la función es entonces **ejecutado**.</li>
-                                <li>Al llegar al final de la función, Python **regresa** al lugar inmediato después de donde ocurrió la invocación.</li>
+                                <li>Cuando se invoca una función, Python recuerda el lugar donde ocurre y salta hacia dentro de la función invocada.</li>
+                                <li>El cuerpo de la función es entonces ejecutado.</li>
+                                <li>Al llegar al final de la función, Python regresa al lugar inmediato después de donde ocurrió la invocación.</li>
                             </ol>
                             
                             <h4>Consideraciones Importantes:</h4>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**Orden de Definición:** **No se debe invocar una función antes de que se haya definido**. Python lee el código de arriba hacia abajo. La función debe estar definida "antes de ser invocada".</li>
-                                <li>**Nombres Únicos:** Una función y una variable **no pueden compartir el mismo nombre**. Asignar un valor a un nombre de función existente (ej. \`message = 10\`) hará que Python olvide la función, y esta ya no estará disponible.</li>
+                                <li>Orden de Definición: No se debe invocar una función antes de que se haya definido. Python lee el código de arriba hacia abajo. La función debe estar definida "antes de ser invocada".</li>
+                                <li>Nombres Únicos: Una función y una variable no pueden compartir el mismo nombre. Asignar un valor a un nombre de función existente (ej. message = 10) hará que Python olvide la función, y esta ya no estará disponible.</li>
                             </ul>
 
                             <hr />
@@ -1745,41 +1745,41 @@ saludo("Ana") # Invocación: El valor "Ana" es el argumento.`}
                 }
             },
             {
-                id: '4.2',
+                id: '4.2_parametros_funciones',
                 item: 'Parámetros en Funciones',
                 content: {
-                    title: '4.2 – Parámetros en Funciones',
+                    title: 'Parámetros en Funciones',
                     body: (
                         <DivContent>
                             <h3>Parámetros vs. Argumentos</h3>
-                            <p>La comunicación entre el código que llama a una función y la función misma se realiza mediante **parámetros** y **argumentos**.</p>
+                            <p>La comunicación entre el código que llama a una función y la función misma se realiza mediante parámetros y argumentos.</p>
                             
                             <ul className="list-disc list-inside ml-4">
-                                <li>**Parámetros:** Son **variables** definidas dentro de la función (entre los paréntesis de la palabra clave `def`). Solo existen dentro de la función.
+                                <li>Parámetros: Son variables definidas dentro de la función (entre los paréntesis de la palabra clave def). Solo existen dentro de la función.
                                     <Code>
                                         {`def function(parameter): # 'parameter' es el parámetro
     print(parameter) `}
                                     </Code>
                                 </li>
-                                <li>**Argumentos:** Son los **valores** que se pasan a la función cuando se invoca. Estos valores se asignan a los parámetros correspondientes.
+                                <li>Argumentos: Son los valores que se pasan a la función cuando se invoca. Estos valores se asignan a los parámetros correspondientes.
                                     <Code>
                                         {`function("Hola") # "Hola" es el argumento `}
                                     </Code>
                                 </li>
                             </ul>
                             <blockquote className="border-l-4 border-amber-300 pl-4 my-2">
-                                **Recuerda:** Los **parámetros** viven dentro de la función (su entorno natural), y los **argumentos** existen fuera y les pasan los valores.
+                                Recuerda: Los parámetros viven dentro de la función (su entorno natural), y los argumentos existen fuera y les pasan los valores.
                             </blockquote>
 
                             <hr />
 
                             <h3>Paso de Parámetros Posicionales (Por Posición)</h3>
                             <p>
-                                Es la técnica estándar donde la asignación de argumentos a parámetros se basa estrictamente en su **orden o posición**.
+                                Es la técnica estándar donde la asignación de argumentos a parámetros se basa estrictamente en su orden o posición.
                             </p>
                             <ul className="list-disc list-inside ml-4">
                                 <li>El primer argumento va al primer parámetro, el segundo al segundo, y así sucesivamente.</li>
-                                <li>Se debe **proveer el mismo número de argumentos** como haya parámetros definidos.</li>
+                                <li>Se debe proveer el mismo número de argumentos como haya parámetros definidos.</li>
                             </ul>
                             <Code>
                                 {`def resta(a, b): # a y b son parámetros posicionales
@@ -1793,11 +1793,11 @@ resta(5, 10) # 5 se asigna a 'a', 10 se asigna a 'b'. Resultado: -5`}
 
                             <h3>Paso de Argumentos por Palabras Clave (Variables)</h3>
                             <p>
-                                En esta técnica, el **significado del argumento** está definido por su **nombre de parámetro**, no por su posición.
+                                En esta técnica, el significado del argumento está definido por su nombre de parámetro, no por su posición.
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>Los valores se pasan usando la sintaxis: `nombre_parametro = valor`.</li>
-                                <li>La **posición no es relevante**; el argumento conoce su destino por el nombre.</li>
+                                <li>Los valores se pasan usando la sintaxis: nombre_parametro = valor.</li>
+                                <li>La posición no es relevante; el argumento conoce su destino por el nombre.</li>
                                 <li>No se puede usar el nombre de un parámetro que no existe.</li>
                             </ul>
                             <Code>
@@ -1815,20 +1815,20 @@ mezcla(color1="Rojo", color2="Verde") # Resultado: Mezcla de Rojo y Verde`}
                 }
             },
             {
-                id: '4.3',
+                id: '4.3_retorno_funciones',
                 item: 'Retornando el Resultado de una Función',
                 content: {
-                    title: '4.3 – Retornando el Resultado de una Función',
+                    title: 'Retornando el Resultado de una Función',
                     body: (
                         <DivContent>
-                            <h3>La Instrucción `return`</h3>
+                            <h3>La Instrucción return</h3>
                             <p>
-                                Las funciones pueden **devolver un valor** como resultado. Para lograr esto, se utiliza la **palabra clave reservada** `return`.
+                                Las funciones pueden devolver un valor como resultado. Para lograr esto, se utiliza la palabra clave reservada return.
                             </p>
                             
-                            <h4>1. `return` sin una expresión (Terminación Inmediata)</h4>
+                            <h4>1. return sin una expresión (Terminación Inmediata)</h4>
                             <p>
-                                Si `return` se usa sin un valor, provoca la **terminación inmediata de la ejecución de la función**, y el flujo de control regresa al punto de invocación.
+                                Si return se usa sin un valor, provoca la terminación inmediata de la ejecución de la función, y el flujo de control regresa al punto de invocación.
                             </p>
                             <Code>
                                 {`def cuenta_regresiva(desear_feliz_año):
@@ -1841,9 +1841,9 @@ mezcla(color1="Rojo", color2="Verde") # Resultado: Mezcla de Rojo y Verde`}
     print("¡Feliz año nuevo!")`}
                             </Code>
 
-                            <h4>2. `return` con una expresión (Devolver un Valor)</h4>
+                            <h4>2. return con una expresión (Devolver un Valor)</h4>
                             <p>
-                                Esta variante evalúa la expresión y **devuelve su valor** como el resultado de la función, además de causar la terminación inmediata.
+                                Esta variante evalúa la expresión y devuelve su valor como el resultado de la función, además de causar la terminación inmediata.
                             </p>
                             <Code>
                                 {`def suma(a, b):
@@ -1853,13 +1853,13 @@ mezcla(color1="Rojo", color2="Verde") # Resultado: Mezcla de Rojo y Verde`}
 
                             <hr />
 
-                            <h3>El valor `None`</h3>
+                            <h3>El valor None</h3>
                             <p>
-                                **`None`** es una **palabra clave reservada** que representa la **ausencia de un valor** razonable.
+                                None es una palabra clave reservada que representa la ausencia de un valor razonable.
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**Uso Seguro:** Asignar un estado a una variable o diagnosticar si una variable tiene un valor (`if variable is None`).</li>
-                                <li>**Retorno Implícito:** Si una función **no devuelve explícitamente un valor** con `return`, se asume que devuelve implícitamente **`None`**.</li>
+                                <li>Uso Seguro: Asignar un estado a una variable o diagnosticar si una variable tiene un valor (if variable is None).</li>
+                                <li>Retorno Implícito: Si una función no devuelve explícitamente un valor con return, se asume que devuelve implícitamente None.</li>
                             </ul>
                             <Code>
                                 {`def funcion_vacia():
@@ -1898,7 +1898,7 @@ print(nueva_lista) # Output: [4, 3, 2, 1, 0]`}
                             <hr />
 
                             <h3>Ejercicio: Números Primos</h3>
-                            <p>Un número natural es **primo** si es mayor que 1 y no tiene divisores más que 1 y sí mismo.</p>
+                            <p>Un número natural es primo si es mayor que 1 y no tiene divisores más que 1 y sí mismo.</p>
                             <Code>
                                 {`def is_prime(num):
     if num < 2:
@@ -1915,27 +1915,27 @@ print(nueva_lista) # Output: [4, 3, 2, 1, 0]`}
                 }
             },
             {
-                id: '4.4',
+                id: '4.4_scope_python',
                 item: 'Alcances (Scopes) en Python',
                 content: {
-                    title: '4.4 – Alcances (Scopes) en Python',
+                    title: 'Alcances (Scopes) en Python',
                     body: (
                         <DivContent>
                             <h3>El Alcance de un Nombre (Scope)</h3>
                             <p>
-                                El **alcance** de un nombre (variable) es la parte del código donde ese nombre es **válido** y reconocido.
+                                El alcance de un nombre (variable) es la parte del código donde ese nombre es válido y reconocido.
                             </p>
                             <ul className="list-disc list-inside ml-4">
-                                <li>El alcance de un **parámetro** es la función misma.</li>
-                                <li>Una variable definida **fuera** de una función (global) se puede **leer** dentro de la función.</li>
-                                <li>**Asignar** un valor a una variable global dentro de una función crea una **nueva variable local** con el mismo nombre.</li>
+                                <li>El alcance de un parámetro es la función misma.</li>
+                                <li>Una variable definida fuera de una función (global) se puede leer dentro de la función.</li>
+                                <li>Asignar un valor a una variable global dentro de una función crea una nueva variable local con el mismo nombre.</li>
                             </ul>
 
                             <hr />
 
-                            <h3>La Palabra Clave `global`</h3>
+                            <h3>La Palabra Clave global</h3>
                             <p>
-                                Para **modificar** una variable global dentro de una función, se utiliza la palabra clave reservada **`global`**.
+                                Para modificar una variable global dentro de una función, se utiliza la palabra clave reservada global.
                             </p>
                             <Code>
                                 {`variable_global = 10 
@@ -1952,19 +1952,19 @@ print(f"Fuera: {variable_global}") # Output: 5`}
                             <hr />
 
                             <h3>Interacción con Parámetros</h3>
-                            <p>La interacción depende de la **mutabilidad** del argumento:</p>
+                            <p>La interacción depende de la mutabilidad del argumento:</p>
 
                             <h4>1. Argumentos Escalares (Inmutables: int, str, tuple)</h4>
                             <ul className="list-disc list-inside ml-4">
-                                <li>Se recibe el **valor** del argumento.</li>
-                                <li>Cambiar el valor del parámetro dentro de la función **no afecta al argumento original**.</li>
+                                <li>Se recibe el valor del argumento.</li>
+                                <li>Cambiar el valor del parámetro dentro de la función no afecta al argumento original.</li>
                             </ul>
                             
                             <h4>2. Argumentos de Colección (Mutables: list, dict)</h4>
                             <ul className="list-disc list-inside ml-4">
-                                <li>Se recibe una **referencia** a la lista original.</li>
-                                <li>Si se **modifica el contenido** de la lista (ej. `.append()`), la **lista original** se ve afectada.</li>
-                                <li>Si se **reasigna el parámetro** (ej. `my_list = [0, 1]`), solo se afecta el parámetro local, no el argumento original.</li>
+                                <li>Se recibe una referencia a la lista original.</li>
+                                <li>Si se modifica el contenido de la lista (ej. .append()), la lista original se ve afectada.</li>
+                                <li>Si se reasigna el parámetro (ej. my_list = [0, 1]), solo se afecta el parámetro local, no el argumento original.</li>
                             </ul>
                             <Code>
                                 {`def cambiar_contenido(my_list):
@@ -1979,14 +1979,14 @@ print(lista_original) # Output: [2, 3]`}
                 }
             },
             {
-                id: '4.5',
+                id: '4.5_ejercicios_funciones',
                 item: 'Ejercicios de Creación de Funciones',
                 content: {
-                    title: '4.5 – Ejercicios de Creación de Funciones',
+                    title: 'Ejercicios de Creación de Funciones',
                     body: (
                         <DivContent>
                             <h3>Factoriales</h3>
-                            <p>El factorial de $n$ ($n!$) es el **producto** de todos los números naturales $\leq n$.</p>
+                            <p>El factorial de $n$ ($n!$) es el producto de todos los números naturales $\leq n$.</p>
                             <Code>
                                 {`def factorial_function(n):
     if n < 0:
@@ -2027,39 +2027,39 @@ print(lista_original) # Output: [2, 3]`}
                 }
             },
             {
-                id: '4.6',
+                id: '4.6_tuplas_y_diccionarios',
                 item: 'Tuplas y Diccionarios',
                 content: {
-                    title: '4.6  Tuplas y Diccionarios',
+                    title: 'Tuplas y Diccionarios',
                     body: (
                         <DivContent>
                             <h3>Conceptos Clave: Secuencia y Mutabilidad</h3>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**Secuencia:** Tipo de dato que puede ser escaneado por el **bucle `for`** (Listas, Tuplas).</li>
-                                <li>**Mutabilidad:** Capacidad de cambiar su contenido. **Mutables** (Listas, Diccionarios) vs. **Inmutables** (Tuplas, Cadenas).</li>
+                                <li>Secuencia: Tipo de dato que puede ser escaneado por el bucle for (Listas, Tuplas).</li>
+                                <li>Mutabilidad: Capacidad de cambiar su contenido. Mutables (Listas, Diccionarios) vs. Inmutables (Tuplas, Cadenas).</li>
                             </ul>
                             
                             <hr />
 
                             <h2>Tuplas (Inmutables)</h2>
                             <p>
-                                Colecciones ordenadas e **inmutables**. Se definen con **paréntesis `()`** o solo comas.
+                                Colecciones ordenadas e inmutables. Se definen con paréntesis () o solo comas.
                             </p>
                             <Code>
                                 {`mi_tupla = (1, 3.14, "hola") 
 single = (5,) # Tupla de un solo elemento requiere coma final`}
                             </Code>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**Operaciones:** Se pueden usar `len()`, `+`, `*`, `in`.</li>
-                                <li>**Inmutabilidad:** No se puede modificar su contenido.</li>
-                                <li>**Desempaquetado:** Útil para asignar valores: `a, b = b, a`.</li>
+                                <li>Operaciones: Se pueden usar len(), +, *, in.</li>
+                                <li>Inmutabilidad: No se puede modificar su contenido.</li>
+                                <li>Desempaquetado: Útil para asignar valores: a, b = b, a.</li>
                             </ul>
                             
                             <hr />
                             
                             <h2>Diccionarios (Mutables)</h2>
                             <p>
-                                Almacenan pares de **clave:valor**. Son **mutables** y se definen con **llaves `{}`**.
+                                Almacenan pares de clave:valor. Son mutables y se definen con llaves {}.
                             </p>
                             <Code>
                                 {`diccionario = {
@@ -2070,33 +2070,33 @@ print(diccionario["gato"]) # Acceso por clave: chat`}
                             </Code>
                             <h4>Reglas</h4>
                             <ul className="list-disc list-inside ml-4">
-                                <li>Claves deben ser **únicas** y de tipo **inmutable** (no listas).</li>
-                                <li>**Modificar/Agregar:** Se hace por asignación: `diccionario["clave"] = valor`.</li>
-                                <li>**Eliminar:** Se usa `del diccionario["clave"]` o `diccionario.popitem()`.</li>
-                                <li>**Iteración:** Se usa `dic.keys()`, `dic.values()`, o `dic.items()` (pares de tuplas).</li>
+                                <li>Claves deben ser únicas y de tipo inmutable (no listas).</li>
+                                <li>Modificar/Agregar: Se hace por asignación: diccionario["clave"] = valor.</li>
+                                <li>Eliminar: Se usa del diccionario["clave"] o diccionario.popitem().</li>
+                                <li>Iteración: Se usa dic.keys(), dic.values(), o dic.items() (pares de tuplas).</li>
                             </ul>
                             
                             <h4>Métodos Clave</h4>
                             <ul className="list-disc list-inside ml-4">
-                                <li>`keys()`: Retorna lista de claves.</li>
-                                <li>`items()`: Retorna lista de tuplas (clave, valor).</li>
-                                <li>`update()`: Inserta otro diccionario o pares clave-valor.</li>
-                                <li>`copy()`: Crea una copia.</li>
+                                <li>keys(): Retorna lista de claves.</li>
+                                <li>items(): Retorna lista de tuplas (clave, valor).</li>
+                                <li>update(): Inserta otro diccionario o pares clave-valor.</li>
+                                <li>copy(): Crea una copia.</li>
                             </ul>
                         </DivContent>
                     )
                 }
             },
             {
-                id: '4.7',
+                id: '4.7_excepciones',
                 item: 'Excepciones',
                 content: {
-                    title: '4.7 – Excepciones (Manejo de Errores)',
+                    title: '4.7 - Excepciones (Manejo de Errores)',
                     body: (
                         <DivContent>
-                            <h3>La Rama `try-except`</h3>
+                            <h3>La Rama try-except</h3>
                             <p>
-                                Permite manejar errores (**excepciones**) sin que el programa termine.
+                                Permite manejar errores (excepciones) sin que el programa termine.
                             </p>
                             <Code>
                                 {`try:
@@ -2116,19 +2116,19 @@ except:
                             
                             <h4>Mecanismo</h4>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**`try`:** La ejecución se detiene si ocurre un error y salta al `except` apropiado.</li>
-                                <li>**`except`:** Solo se activa si una excepción ocurre en el `try`.</li>
+                                <li>try: La ejecución se detiene si ocurre un error y salta al except apropiado.</li>
+                                <li>except: Solo se activa si una excepción ocurre en el try.</li>
                             </ul>
 
                             <hr />
 
                             <h3>Excepciones Comunes</h3>
                             <ul className="list-disc list-inside ml-4">
-                                <li>**`ZeroDivisionError`:** División por cero.</li>
-                                <li>**`ValueError`:** Valor de tipo adecuado, pero inaceptable (ej. `int("abc")`).</li>
-                                <li>**`TypeError`:** Operación aplicada a un tipo de dato incorrecto (ej. índice flotante en lista).</li>
-                                <li>**`AttributeError`:** Intento de usar un método o atributo que no existe.</li>
-                                <li>**`SyntaxError`:** Violación de la gramática de Python.</li>
+                                <li>ZeroDivisionError: División por cero.</li>
+                                <li>ValueError: Valor de tipo adecuado, pero inaceptable (ej. int("abc")).</li>
+                                <li>TypeError: Operación aplicada a un tipo de dato incorrecto (ej. índice flotante en lista).</li>
+                                <li>AttributeError: Intento de usar un método o atributo que no existe.</li>
+                                <li>SyntaxError: Violación de la gramática de Python.</li>
                             </ul>
                         </DivContent>
                     )
