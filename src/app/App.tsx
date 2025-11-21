@@ -21,6 +21,12 @@ function App() {
             onClick={toggleSidebar}>
                 <FontAwesomeIcon icon={['fas', 'bars']} />
             </button>
+            <a className={`absolute right-0 m-4 p-2 text-3xl
+            bg-amarillo rounded-full shadow-lg text-gris cursor-pointer 
+            hover:text-gris-medio transition-all duration-300`}
+            href="/navegacion">
+                <FontAwesomeIcon icon={['fas', 'house']} />
+            </a>
             <Sidebar 
               isSidebarOpen={isSidebarOpen}
               toggleSidebar={toggleSidebar}
