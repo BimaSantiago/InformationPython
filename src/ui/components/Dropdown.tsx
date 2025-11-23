@@ -1,19 +1,26 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import type { DropdownProps } from "../types/types"
 import DropdownItem from "./DropdownItem"
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { useLocation } from "react-router-dom"
 
 
-
-export default function Dropdown({id, icon, title, items, dropdownOpen, toggleDropdown}: DropdownProps) {
+export default function Dropdown({icon, title, items, dropdownOpen, toggleDropdown}: DropdownProps) {
     const [itemSelectioned, setItemSelectioned] = useState<string | null>(null)
-
+    
     const activeItem = (id: string) => {
-        setItemSelectioned(itemSelectioned === id ? null : id);
+        setItemSelectioned(id ? id : null);
     }
+    const location = useLocation().pathname.substring(8);
+
+    useEffect(() => {    
+        if (itemSelectioned !== location) setItemSelectioned(null); 
+        if (itemSelectioned === null) setItemSelectioned(location);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [location]);
 
     return (
-    <div key={id}>
+    <div>
         <button className="w-full flex items-center gap-3
         p-4 text-white cursor-pointer
         hover:bg-indigo-600 transition-all duration-300"
@@ -32,6 +39,7 @@ export default function Dropdown({id, icon, title, items, dropdownOpen, toggleDr
         transition-all duration-600`}>
             {items.map((item) => (
                 <DropdownItem 
+                    key={item.id}
                     {...item}
                     itemSelectioned={itemSelectioned === item.id}
                     activeItem={() => activeItem(item.id)}

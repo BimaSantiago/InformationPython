@@ -32,9 +32,7 @@ export default function SeccionContenido() {
                 {contenido.title}
             </h2>
         </SimpleCard>
-        <SimpleCard>
-            {contenido.body}
-        </SimpleCard>
+        {contenido.body}
         </section>
     )
 }

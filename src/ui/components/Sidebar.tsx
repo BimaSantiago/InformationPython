@@ -19,7 +19,7 @@ export default function Sidebar({isSidebarOpen, toggleSidebar}: SidebarProps) {
     )}
     <aside className={`fixed flex flex-col ${isSidebarOpen ? 'md:w-64 w-dvw' : 'w-0'} h-full max-h-full bg-azul-fuerte
     transition-all duration-500 ease-in-out z-10 gap-4 overflow-hidden overflow-y-auto`}>
-      <div className="border-b-4 border-amarillo
+      <div className="w-full border-b-4 border-amarillo
       flex justify-between p-4 text-2xl">
         <Link to="/" className="font-bold text-amber-300 cursor-crosshair">
           Curso Python
@@ -35,6 +35,7 @@ export default function Sidebar({isSidebarOpen, toggleSidebar}: SidebarProps) {
       <nav>
         {DROPDOWNS.map((dropdown) => (
           <Dropdown 
+            key={dropdown.id}
             {...dropdown}
             dropdownOpen={dropdownOpen === dropdown.id}
             toggleDropdown={() => toggleDropdown(dropdown.id)}

@@ -1,13 +1,5 @@
 @import "tailwindcss";
 
-@font-face {
-    font-family: 'Cascadia Code PL';
-    src: url('/fonts/CascadiaCodePL.woff2') format('woff2'); 
-    font-weight: 400; 
-    font-style: normal;
-    font-display: swap;
-}
-
 @theme {
     /* Tipos de Letras */
     --font-cascadia: 'Cascadia Code PL', monospace;
@@ -41,6 +33,7 @@ code, pre {
 /* Scrollbar personalizado */
 ::-webkit-scrollbar {
     width: 8px;
+    height: 0px;
 }
 
 ::-webkit-scrollbar-track {

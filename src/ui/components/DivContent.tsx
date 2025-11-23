@@ -1,13 +1,17 @@
 import type { ReactNode } from "react"
+import SimpleCard from "./SimpleCard"
 
 interface DivContent {
-    children: ReactNode
+    children: ReactNode,
+    id?: string
 }
 
-export default function DivContent({children}: DivContent) {
+export default function DivContent({children, id}: DivContent) {
     return (
-      <div className="flex flex-col gap-4 text-lg text-gris-mamalon">
+      <div id={id} className="text-lg text-gris-mamalon">
+        <SimpleCard>
           {children}
+        </SimpleCard>
       </div>
     )
 }
