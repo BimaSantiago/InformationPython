@@ -30,3 +30,7 @@ export interface DropdownItemProps {
   itemSelectioned?: boolean,
   activeItem?: () => void
 }
+export interface IDs {
+  subtema: string,
+  ids: string[]
+}
