@@ -21,7 +21,7 @@ export default function Sidebar({isSidebarOpen, toggleSidebar}: SidebarProps) {
     transition-all duration-500 ease-in-out z-10 gap-4 overflow-hidden overflow-y-auto`}>
       <div className="w-full border-b-4 border-amarillo
       flex justify-between p-4 text-2xl">
-        <Link to="/" className="font-bold text-amber-300 cursor-crosshair">
+        <Link to="/python/python.html" className="font-bold text-amber-300 cursor-crosshair">
           Curso Python
         </Link>
         <button className="text-gris cursor-pointer 
