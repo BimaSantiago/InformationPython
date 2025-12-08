@@ -1,19 +1,14 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import ScrollAnimation from "./ScrollAnimation"
 
 export default function Home() {
   return (
     <div className="w-full space-y-8">
       {/* Hero Section */}
       <div className="bg-azul-fuerte rounded-lg shadow-lg p-8 text-center">
-        <div className="flex justify-center mb-6">
-          <FontAwesomeIcon 
-            icon={['fab', 'python']} 
-            className="text-amarillo text-8xl md:text-9xl" 
-          />
+        <div>
+           <ScrollAnimation />
         </div>
-        <h1 className="text-4xl md:text-5xl font-bold text-amarillo mb-4">
-          Bienvenidos al Curso de Python
-        </h1>
       </div>
 
       {/* Introducción */}

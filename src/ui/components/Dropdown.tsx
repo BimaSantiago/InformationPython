@@ -23,7 +23,7 @@ export default function Dropdown({icon, title, items, dropdownOpen, toggleDropdo
     <div>
         <button className="w-full flex items-center gap-3
         p-4 text-white cursor-pointer
-        hover:bg-indigo-600 transition-all duration-300"
+        hover:bg-azul-zzz transition-all duration-300"
         onClick={toggleDropdown}> 
             <FontAwesomeIcon icon={icon} className="text-amarillo" size="xl" />
             <h3 className="text-xl font-bold tracking-wide flex-1 text-left">
@@ -34,7 +34,7 @@ export default function Dropdown({icon, title, items, dropdownOpen, toggleDropdo
                 <FontAwesomeIcon icon={['fas', 'chevron-right']} />
             </span>
         </button>
-        <div className={`flex flex-col bg-indigo-600/80 overflow-hidden
+        <div className={`flex flex-col bg-azul-zz overflow-hidden
         ${dropdownOpen ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'}
         transition-all duration-600`}>
             {items.map((item) => (

@@ -5,7 +5,7 @@ export default function DropdownItem({id, item, itemSelectioned, activeItem}: Dr
   return (
     <>
     <Link to={`/python/${id}`} key={id} className={`ml-8 p-3 text-white font-medium
-    hover:bg-indigo-800 ${itemSelectioned ? 'bg-indigo-800' : 'bg-none'}
+    hover:bg-azul-zzz ${itemSelectioned ? 'bg-azul-zzz' : 'bg-none'}
     transition-all duration-300`}
     onClick={activeItem}>
         {item}

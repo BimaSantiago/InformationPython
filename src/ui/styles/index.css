@@ -7,7 +7,10 @@
     /* Colores Primarios - Azules */
     --color-azul-fuerte: #4d82bc;
     --color-azul: #84b6f4;
-    --color-azul-claro: #c4dafa; 
+    --color-azul-claro: #c4dafa;
+    --color-azul-zzz: #3E77B6; 
+    --color-azul-zz: #0F7FB0;
+    --color-azul-opaco: #4d82bcff;
     
     /* Colores Acento - Amarillos */
     --color-amarillo: #fdfd96;
