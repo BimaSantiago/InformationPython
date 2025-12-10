@@ -7,10 +7,11 @@ import { useLocation } from "react-router-dom"
 
 export default function Dropdown({icon, title, items, dropdownOpen, toggleDropdown}: DropdownProps) {
     const [itemSelectioned, setItemSelectioned] = useState<string | null>(null)
-    
+
     const activeItem = (id: string) => {
         setItemSelectioned(id ? id : null);
     }
+    
     const location = useLocation().pathname.substring(8);
 
     useEffect(() => {    

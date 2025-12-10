@@ -4,7 +4,7 @@ import Important from "../components/Important";
 import List from "../components/List";
 import Span from "../components/Span";
 import TitleContent from "../components/TitleContent";
-import type { DropdownProps } from "../types/types";
+import type { DropdownProps, IDs } from "../types/types";
 
 export const DROPDOWNS: DropdownProps[] = [
     {
@@ -40,7 +40,7 @@ export const DROPDOWNS: DropdownProps[] = [
                 }
             },
             {
-                id: '1.2_lenguajes-pramacion',
+                id: '1.2_lenguajes-programacion',
                 item: 'Lenguajes de Programación',
                 content: {
                     title: 'Lenguajes de Programación',
@@ -508,7 +508,7 @@ export const DROPDOWNS: DropdownProps[] = [
                 }
             },
             {
-                id: '2.1_litereales',
+                id: '2.2_litereales',
                 item: 'Literales de Python (Tipos de datos básicos)',
                 content: {
                     title: 'Literales de Python (Tipos de datos básicos)',
@@ -843,7 +843,7 @@ suma = a + b  # Calculamos la suma de a y b
                     title: 'Interacción con el Usuario',
                     body: (
                         <>
-                        <DivContent id="2.6.2">
+                        <DivContent id="2.6.1">
                             <TitleContent>
                                 La función input()
                             </TitleContent>
@@ -1530,7 +1530,7 @@ print(f"Los Fab {len(beatles)}")`}
                     title: 'Procesamiento de Listas',
                     body: (
                         <>
-                        <DivContent id="3.4.1">
+                        <DivContent id="3.5.1">
                             <TitleContent>Iteración sobre listas</TitleContent>
                             <p>
                                 Recorrer una lista es como revisar cada cajón de un mueble:
@@ -1551,7 +1551,7 @@ for indice, color in enumerate(colores):
     print(f"{indice}: {color}")`}
                             </Code>
                         </DivContent>
-                        <DivContent id="3.4.2">
+                        <DivContent id="3.5.2">
                             <TitleContent>Uso de in y not in</TitleContent>
                             <p>
                                 Verificar si algo existe en una lista:
@@ -1569,7 +1569,7 @@ print(3 in numeros)  # True
 print(10 in numeros)  # False`}
                             </Code>
                         </DivContent>
-                        <DivContent id="3.4.3">
+                        <DivContent id="3.5.3">
                             <TitleContent>Comparación entre listas</TitleContent>
                             <p>
                                 Python compara listas elemento por elemento:
@@ -1583,7 +1583,7 @@ print(lista1 == lista3)  # False
 print(lista1 < lista3)  # True (3 < 4)`}
                             </Code>
                         </DivContent>
-                        <DivContent id="3.4.4">
+                        <DivContent id="3.5.4">
                             <TitleContent>Listas y cadenas de texto</TitleContent>
                             <p>
                                 Las cadenas y listas pueden convertirse entre sí:
@@ -1603,7 +1603,7 @@ fecha = "31/12/2024"
 partes = fecha.split("/")  # ["31", "12", "2024"]`}
                             </Code>
                         </DivContent>
-                        <DivContent id="3.4.5">
+                        <DivContent id="3.5.5">
                             <TitleContent>Ejercicios prácticos</TitleContent>
                             <Span>1. Encontrar el número más grande </Span>
                             <Code>
@@ -2465,3 +2465,271 @@ except:
         ]
     },
 ];
+
+
+export const IDs: IDs[] = [
+    {
+        subtema: '1.1_introduccion',
+        ids: [
+            '1.1.1'
+        ]
+    },
+    {
+        subtema: '1.2_lenguajes-programacion',
+        ids: [
+            '',
+            '1.2.1',
+            '1.2.2'
+        ]
+    },
+    {
+        subtema: '1.3_traduccion_codigo',
+        ids: [
+            '',
+            '1.3.1',
+            '1.3.2'
+        ]
+    },
+    {
+        subtema: '1.4_python',
+        ids: [
+            '',
+            '1.4.1',
+            '1.4.2'
+        ]
+    },
+    {
+        subtema: '1.5_caracteristicas_python',
+        ids: [
+            '',
+            '1.5.1',
+            '1.5.2'
+        ]
+    },
+    {
+        subtema: '1.6_versiones',
+        ids: [
+            '',
+            '1.6.1',
+            '1.6.2'
+        ]
+    },
+    {
+        subtema: '1.7_instalacion',
+        ids: [
+            '',
+            '1.7.1',
+            '1.7.2'
+        ]
+    },
+    {
+        subtema: '1.8_primeros_pasos',
+        ids: [
+            '',
+            '1.8.1'
+        ]
+    },
+    {
+        subtema: '1.9_errores',
+        ids: [
+            '',
+            '1.9.1',
+            '1.9.2'
+        ]
+    },
+    {
+        subtema: '2.1_primer_programa',
+        ids: [
+            '',
+            '2.1.1',
+            '2.1.2',
+            '2.1.3'
+        ]
+    },
+    {
+        subtema: '2.2_litereales',
+        ids: [
+            '',
+            '2.2.1',
+            '2.2.2',
+            '2.2.3',
+            '2.2.4'
+        ]
+    },
+    {
+        subtema: '2.3_operadoes',
+        ids: [
+            '',
+            '2.3.1',
+            '2.3.2',
+            '2.3.3'
+        ]
+    },
+    {
+        subtema: '2.4_variables',
+        ids: [
+            '',
+            '2.4.1',
+            '2.4.2',
+            '2.4.3'
+        ]
+    },
+    {
+        subtema: '2.5_comentarios',
+        ids: [
+            '',
+            '2.5.1',
+            '2.5.2'
+        ]
+    },
+    {
+        subtema: '2.6_interactividad',
+        ids: [
+            '',
+            '2.6.1',
+            '2.6.2'
+        ]
+    },
+    {
+        subtema: '3.1_flujo_python',
+        ids: [
+            '',
+            '3.1.1',
+            '3.1.2',
+            '3.1.3',
+            '3.1.4',
+            '3.1.5'
+        ]
+    },
+    {
+        subtema: '3.2_bucles',
+        ids: [
+            '',
+            '3.2.1',
+            '3.2.2',
+            '3.2.3',
+            '3.2.4'
+        ]
+    },
+    {
+        subtema: '3.3_operaciones_logicas',
+        ids: [
+            '',
+            '3.3.1',
+            '3.3.2',
+            '3.3.3',
+            '3.3.4',
+            '3.3.5',
+            '3.3.6'
+        ]
+    },
+    {
+        subtema: '3.4_listas',
+        ids: [
+            '',
+            '3.4.1',
+            '3.4.2',
+            '3.4.3',
+            '3.4.4',
+            '3.4.5',
+            '3.4.6',
+            '3.4.7',
+            '3.4.8',
+            '3.4.9'
+        ]
+    },
+    {
+        subtema: '3.5_procesar_listas',
+        ids: [
+            '',
+            '3.5.1',
+            '3.5.2',
+            '3.5.3',
+            '3.5.4',
+            '3.5.5'
+        ]
+    },
+    {
+        subtema: '3.6_listas_avanzadas',
+        ids: [
+            '',
+            '3.6.1',
+            '3.6.2',
+            '3.6.3',
+            '3.6.4'
+        ]
+    },
+    {
+        subtema: '3.7_list_comprehensions',
+        ids: [
+            '',
+            '3.7.1',
+            '3.7.2',
+            '3.7.3'
+        ]
+    },
+    {
+        subtema: '4.1_funciones',
+        ids: [
+            '',
+            '4.1.1',
+            '4.1.2',
+            '4.1.3',
+            '4.1.4',
+            '4.1.5'
+        ]
+    },
+    {
+        subtema: '4.2_parametros',
+        ids: [
+            '',
+            '4.2.1',
+            '4.2.2',
+            '4.2.3'
+        ]
+    },
+    {
+        subtema: '4.3_retornar',
+        ids: [
+            '',
+            '4.3.1',
+            '4.3.2',
+            '4.3.3',
+            '4.3.4'
+        ]
+    },
+    {
+        subtema: '4.4_scope',
+        ids: [
+            '',
+            '4.4.1',
+            '4.4.2',
+            '4.4.3'
+        ]
+    },
+    {
+        subtema: '4.5_ejercicios_funciones',
+        ids: [
+            '',
+            '4.5.1',
+            '4.5.2'
+        ]
+    },
+    {
+        subtema: '4.6_tuplas_y_diccionarios',
+        ids: [
+            '',
+            '4.6.1',
+            '4.6.2',
+            '4.6.3'
+        ]
+    },
+    {
+        subtema: '4.7_excepciones',
+        ids: [
+            '',
+            '4.7.1',
+            '4.7.2'
+        ]
+    },
+]
