@@ -139,7 +139,7 @@ export const DROPDOWNS: DropdownProps[] = [
                                 más adelante.
                             </p>
                         </DivContent>
-                        <DivContent>
+                        <DivContent id="1.3.3">
                             <p>Ninguno de los dos modelos es superior; ambos tienen sus pros y sus contras.</p>
                             <p>Python es un lenguaje interpretado, por lo que hereda estas características. Afortunadamente, el intérprete de Python es gratuito</p>
                         </DivContent>
@@ -2467,7 +2467,7 @@ except:
 ];
 
 
-export const IDs: IDs[] = [
+export const IdSection: IDs[] = [
     {
         subtema: '1.1_introduccion',
         ids: [
@@ -2479,7 +2479,8 @@ export const IDs: IDs[] = [
         ids: [
             '',
             '1.2.1',
-            '1.2.2'
+            '1.2.2',
+            '1.2.3' //* 
         ]
     },
     {
@@ -2487,7 +2488,8 @@ export const IDs: IDs[] = [
         ids: [
             '',
             '1.3.1',
-            '1.3.2'
+            '1.3.2',
+            '1.3.3'
         ]
     },
     {
@@ -2495,7 +2497,8 @@ export const IDs: IDs[] = [
         ids: [
             '',
             '1.4.1',
-            '1.4.2'
+            '1.4.2',
+            '1.4.3' //*
         ]
     },
     {
@@ -2526,7 +2529,8 @@ export const IDs: IDs[] = [
         subtema: '1.8_primeros_pasos',
         ids: [
             '',
-            '1.8.1'
+            '1.8.1',
+            '1.8.2' //*
         ]
     },
     {

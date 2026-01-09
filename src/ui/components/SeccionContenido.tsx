@@ -1,5 +1,5 @@
 import { useLocation, useParams } from "react-router-dom"
-import { DROPDOWNS, IDs } from "../data/menuData";
+import { DROPDOWNS, IdSection } from "../data/menuData";
 import SimpleCard from "./SimpleCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -20,7 +20,7 @@ export default function SeccionContenido() {
     };
 
     const getNavigationIds = () => {
-        const subtemaGroup = IDs.find(item => item.subtema === seccionId);
+        const subtemaGroup = IdSection.find(item => item.subtema === seccionId);
 
         if (!subtemaGroup) {
             return { prevId: null, nextId: null };

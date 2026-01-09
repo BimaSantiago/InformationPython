@@ -34,7 +34,6 @@ function App() {
             <main className={`transition-all duration-500 p-8 z-10 
             ${isSidebarOpen ? 'ml-64 w-[calc(100%-16rem)]' : 'ml-0 w-full'}`}>
               <Routes>
-                <Route path="/" element={ <Home /> } />
                 <Route path="/python/python.html" element={ <Home /> } />
                 <Route path="/python/nosotros" element={ <Nosotros /> } />
                 <Route path="/python/:seccionId" element={ <SeccionContenido /> } />

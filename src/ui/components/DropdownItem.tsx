@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import type { DropdownItemProps } from "../types/types";
-import { IDs } from "../data/menuData";
+import { IdSection } from "../data/menuData";
 
 const findFirstContentId = (subtemaId: string) => {
-    const topic = IDs.find(item => item.subtema === subtemaId);
+    const topic = IdSection.find(item => item.subtema === subtemaId);
     return topic && topic.ids.length > 0 ? topic.ids[0] : null; 
 };
 
